@@ -5,7 +5,7 @@ import time
 
 
 def videoaufzeichnung(video_wdth,video_hight,video_fps,seconds):
-
+	"Speichert frames fuer gebene Aufloesung
     cap = cv2.VideoCapture(7)
     cap.set(3,video_wdth) # wdth
     cap.set(4,video_hight) #hight 
