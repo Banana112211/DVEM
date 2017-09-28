@@ -1,0 +1,887 @@
+30.0 Frames	2017-09-28 08:10:40.391615
+30.0 Frames	2017-09-28 08:10:43.011593
+30.0 Frames	2017-09-28 08:10:43.027661
+30.0 Frames	2017-09-28 08:10:43.056583
+30.0 Frames	2017-09-28 08:10:43.072903
+30.0 Frames	2017-09-28 08:10:43.099461
+30.0 Frames	2017-09-28 08:10:43.207632
+30.0 Frames	2017-09-28 08:10:43.223089
+30.0 Frames	2017-09-28 08:10:43.237657
+30.0 Frames	2017-09-28 08:10:43.252403
+30.0 Frames	2017-09-28 08:10:43.265464
+30.0 Frames	2017-09-28 08:10:43.288747
+30.0 Frames	2017-09-28 08:10:43.323538
+30.0 Frames	2017-09-28 08:10:43.356425
+30.0 Frames	2017-09-28 08:10:43.391928
+30.0 Frames	2017-09-28 08:10:43.420438
+30.0 Frames	2017-09-28 08:10:43.460493
+30.0 Frames	2017-09-28 08:10:43.488989
+30.0 Frames	2017-09-28 08:10:43.524509
+30.0 Frames	2017-09-28 08:10:43.556381
+30.0 Frames	2017-09-28 08:10:43.588706
+30.0 Frames	2017-09-28 08:10:43.624186
+30.0 Frames	2017-09-28 08:10:43.656131
+30.0 Frames	2017-09-28 08:10:43.694953
+30.0 Frames	2017-09-28 08:10:43.725633
+30.0 Frames	2017-09-28 08:10:43.758181
+30.0 Frames	2017-09-28 08:10:43.792994
+30.0 Frames	2017-09-28 08:10:43.825200
+30.0 Frames	2017-09-28 08:10:43.856843
+30.0 Frames	2017-09-28 08:10:43.893830
+30.0 Frames	2017-09-28 08:10:43.924838
+30.0 Frames	2017-09-28 08:10:43.961214
+30.0 Frames	2017-09-28 08:10:43.992633
+30.0 Frames	2017-09-28 08:10:44.024967
+30.0 Frames	2017-09-28 08:10:44.061208
+30.0 Frames	2017-09-28 08:10:44.092928
+30.0 Frames	2017-09-28 08:10:44.128834
+30.0 Frames	2017-09-28 08:10:44.160482
+30.0 Frames	2017-09-28 08:10:44.192638
+30.0 Frames	2017-09-28 08:10:44.228167
+30.0 Frames	2017-09-28 08:10:44.260260
+30.0 Frames	2017-09-28 08:10:44.296674
+30.0 Frames	2017-09-28 08:10:44.328778
+30.0 Frames	2017-09-28 08:10:44.360426
+30.0 Frames	2017-09-28 08:10:44.397017
+30.0 Frames	2017-09-28 08:10:44.429011
+30.0 Frames	2017-09-28 08:10:44.559150
+30.0 Frames	2017-09-28 08:10:44.572911
+30.0 Frames	2017-09-28 08:10:44.587448
+30.0 Frames	2017-09-28 08:10:44.601860
+30.0 Frames	2017-09-28 08:10:44.616097
+30.0 Frames	2017-09-28 08:10:44.632680
+30.0 Frames	2017-09-28 08:10:44.664206
+30.0 Frames	2017-09-28 08:10:44.697671
+30.0 Frames	2017-09-28 08:10:44.733362
+30.0 Frames	2017-09-28 08:10:44.765719
+30.0 Frames	2017-09-28 08:10:44.798275
+30.0 Frames	2017-09-28 08:10:44.835473
+30.0 Frames	2017-09-28 08:10:44.865292
+30.0 Frames	2017-09-28 08:10:44.903695
+30.0 Frames	2017-09-28 08:10:44.933330
+30.0 Frames	2017-09-28 08:10:44.965040
+30.0 Frames	2017-09-28 08:10:45.000845
+30.0 Frames	2017-09-28 08:10:45.032730
+30.0 Frames	2017-09-28 08:10:45.069341
+30.0 Frames	2017-09-28 08:10:45.100996
+30.0 Frames	2017-09-28 08:10:45.132091
+30.0 Frames	2017-09-28 08:10:45.168039
+30.0 Frames	2017-09-28 08:10:45.200159
+30.0 Frames	2017-09-28 08:10:45.236364
+30.0 Frames	2017-09-28 08:10:45.267943
+30.0 Frames	2017-09-28 08:10:45.299970
+30.0 Frames	2017-09-28 08:10:45.336614
+30.0 Frames	2017-09-28 08:10:45.368029
+30.0 Frames	2017-09-28 08:10:45.403787
+30.0 Frames	2017-09-28 08:10:45.436781
+30.0 Frames	2017-09-28 08:10:45.634457
+30.0 Frames	2017-09-28 08:10:45.647273
+30.0 Frames	2017-09-28 08:10:45.663344
+30.0 Frames	2017-09-28 08:10:45.676224
+30.0 Frames	2017-09-28 08:10:45.693030
+30.0 Frames	2017-09-28 08:10:45.706129
+30.0 Frames	2017-09-28 08:10:45.737967
+30.0 Frames	2017-09-28 08:10:45.774239
+30.0 Frames	2017-09-28 08:10:45.806451
+30.0 Frames	2017-09-28 08:10:45.843178
+30.0 Frames	2017-09-28 08:10:45.873387
+30.0 Frames	2017-09-28 08:10:45.905040
+30.0 Frames	2017-09-28 08:10:45.940802
+30.0 Frames	2017-09-28 08:10:45.972294
+30.0 Frames	2017-09-28 08:10:46.008823
+30.0 Frames	2017-09-28 08:10:46.052887
+30.0 Frames	2017-09-28 08:10:46.072015
+30.0 Frames	2017-09-28 08:10:46.108603
+30.0 Frames	2017-09-28 08:10:46.140103
+30.0 Frames	2017-09-28 08:10:46.176315
+30.0 Frames	2017-09-28 08:10:46.208096
+30.0 Frames	2017-09-28 08:10:46.240133
+30.0 Frames	2017-09-28 08:10:46.275918
+30.0 Frames	2017-09-28 08:10:46.308104
+30.0 Frames	2017-09-28 08:10:46.344526
+30.0 Frames	2017-09-28 08:10:46.378794
+30.0 Frames	2017-09-28 08:10:46.410097
+30.0 Frames	2017-09-28 08:10:46.446420
+30.0 Frames	2017-09-28 08:10:46.476983
+30.0 Frames	2017-09-28 08:10:46.509330
+30.0 Frames	2017-09-28 08:10:46.545520
+30.0 Frames	2017-09-28 08:10:46.577265
+30.0 Frames	2017-09-28 08:10:46.613051
+30.0 Frames	2017-09-28 08:10:46.645301
+30.0 Frames	2017-09-28 08:10:46.676755
+30.0 Frames	2017-09-28 08:10:46.714098
+30.0 Frames	2017-09-28 08:10:46.744470
+30.0 Frames	2017-09-28 08:10:46.781048
+30.0 Frames	2017-09-28 08:10:46.813142
+30.0 Frames	2017-09-28 08:10:46.845592
+30.0 Frames	2017-09-28 08:10:46.881630
+30.0 Frames	2017-09-28 08:10:46.912248
+30.0 Frames	2017-09-28 08:10:46.949174
+30.0 Frames	2017-09-28 08:10:46.980565
+30.0 Frames	2017-09-28 08:10:47.012140
+30.0 Frames	2017-09-28 08:10:47.048646
+30.0 Frames	2017-09-28 08:10:47.080000
+30.0 Frames	2017-09-28 08:10:47.116198
+30.0 Frames	2017-09-28 08:10:47.148316
+30.0 Frames	2017-09-28 08:10:47.180397
+30.0 Frames	2017-09-28 08:10:47.216049
+30.0 Frames	2017-09-28 08:10:47.248668
+30.0 Frames	2017-09-28 08:10:47.283924
+30.0 Frames	2017-09-28 08:10:47.316328
+30.0 Frames	2017-09-28 08:10:47.348382
+30.0 Frames	2017-09-28 08:10:47.384354
+30.0 Frames	2017-09-28 08:10:47.417691
+30.0 Frames	2017-09-28 08:10:47.450214
+30.0 Frames	2017-09-28 08:10:47.485599
+30.0 Frames	2017-09-28 08:10:47.518917
+30.0 Frames	2017-09-28 08:10:47.554851
+30.0 Frames	2017-09-28 08:10:47.586547
+30.0 Frames	2017-09-28 08:10:47.616945
+30.0 Frames	2017-09-28 08:10:47.653976
+30.0 Frames	2017-09-28 08:10:47.685363
+30.0 Frames	2017-09-28 08:10:47.726311
+30.0 Frames	2017-09-28 08:10:47.752821
+30.0 Frames	2017-09-28 08:10:47.886995
+30.0 Frames	2017-09-28 08:10:47.902928
+30.0 Frames	2017-09-28 08:10:47.915886
+30.0 Frames	2017-09-28 08:10:47.931559
+30.0 Frames	2017-09-28 08:10:47.945099
+30.0 Frames	2017-09-28 08:10:47.959855
+30.0 Frames	2017-09-28 08:10:47.988110
+30.0 Frames	2017-09-28 08:10:48.020451
+30.0 Frames	2017-09-28 08:10:48.056104
+30.0 Frames	2017-09-28 08:10:48.088432
+30.0 Frames	2017-09-28 08:10:48.120566
+30.0 Frames	2017-09-28 08:10:48.156086
+30.0 Frames	2017-09-28 08:10:48.189049
+30.0 Frames	2017-09-28 08:10:48.224554
+30.0 Frames	2017-09-28 08:10:48.258130
+30.0 Frames	2017-09-28 08:10:48.290682
+30.0 Frames	2017-09-28 08:10:48.326078
+30.0 Frames	2017-09-28 08:10:48.358080
+30.0 Frames	2017-09-28 08:10:48.389045
+30.0 Frames	2017-09-28 08:10:48.426991
+30.0 Frames	2017-09-28 08:10:48.457105
+30.0 Frames	2017-09-28 08:10:48.493345
+30.0 Frames	2017-09-28 08:10:48.524904
+30.0 Frames	2017-09-28 08:10:48.556898
+30.0 Frames	2017-09-28 08:10:48.593060
+30.0 Frames	2017-09-28 08:10:48.624617
+30.0 Frames	2017-09-28 08:10:48.660969
+30.0 Frames	2017-09-28 08:10:48.692990
+30.0 Frames	2017-09-28 08:10:48.724513
+30.0 Frames	2017-09-28 08:10:48.760282
+30.0 Frames	2017-09-28 08:10:48.792103
+30.0 Frames	2017-09-28 08:10:48.829305
+30.0 Frames	2017-09-28 08:10:48.861052
+30.0 Frames	2017-09-28 08:10:48.892160
+30.0 Frames	2017-09-28 08:10:48.928186
+30.0 Frames	2017-09-28 08:10:48.961438
+30.0 Frames	2017-09-28 08:10:48.997512
+30.0 Frames	2017-09-28 08:10:49.120113
+30.0 Frames	2017-09-28 08:10:49.210825
+30.0 Frames	2017-09-28 08:10:49.316314
+30.0 Frames	2017-09-28 08:10:49.369460
+30.0 Frames	2017-09-28 08:10:49.383452
+30.0 Frames	2017-09-28 08:10:49.397054
+30.0 Frames	2017-09-28 08:10:49.424304
+30.0 Frames	2017-09-28 08:10:49.443186
+30.0 Frames	2017-09-28 08:10:49.456360
+30.0 Frames	2017-09-28 08:10:49.473183
+30.0 Frames	2017-09-28 08:10:49.496516
+30.0 Frames	2017-09-28 08:10:49.532248
+30.0 Frames	2017-09-28 08:10:49.564369
+30.0 Frames	2017-09-28 08:10:49.602284
+30.0 Frames	2017-09-28 08:10:49.632772
+30.0 Frames	2017-09-28 08:10:49.667790
+30.0 Frames	2017-09-28 08:10:49.700114
+30.0 Frames	2017-09-28 08:10:49.733409
+30.0 Frames	2017-09-28 08:10:49.772283
+30.0 Frames	2017-09-28 08:10:49.800077
+30.0 Frames	2017-09-28 08:10:49.835075
+30.0 Frames	2017-09-28 08:10:49.868484
+30.0 Frames	2017-09-28 08:10:49.900897
+30.0 Frames	2017-09-28 08:10:49.936449
+30.0 Frames	2017-09-28 08:10:49.971646
+30.0 Frames	2017-09-28 08:10:50.002379
+30.0 Frames	2017-09-28 08:10:50.038663
+30.0 Frames	2017-09-28 08:10:50.073909
+30.0 Frames	2017-09-28 08:10:50.107084
+30.0 Frames	2017-09-28 08:10:50.141976
+30.0 Frames	2017-09-28 08:10:50.171277
+30.0 Frames	2017-09-28 08:10:50.207973
+30.0 Frames	2017-09-28 08:10:50.239812
+30.0 Frames	2017-09-28 08:10:50.269163
+30.0 Frames	2017-09-28 08:10:50.304267
+30.0 Frames	2017-09-28 08:10:50.336848
+30.0 Frames	2017-09-28 08:10:50.373334
+
+========================================30.0 Frames	2017-09-28 08:10:55.797031
+30.0 Frames	2017-09-28 08:10:58.316805
+30.0 Frames	2017-09-28 08:10:58.343950
+30.0 Frames	2017-09-28 08:10:58.383777
+30.0 Frames	2017-09-28 08:10:58.401008
+30.0 Frames	2017-09-28 08:10:58.417133
+30.0 Frames	2017-09-28 08:10:58.537097
+30.0 Frames	2017-09-28 08:10:58.551356
+30.0 Frames	2017-09-28 08:10:58.563855
+30.0 Frames	2017-09-28 08:10:58.579951
+30.0 Frames	2017-09-28 08:10:58.592665
+30.0 Frames	2017-09-28 08:10:58.615445
+30.0 Frames	2017-09-28 08:10:58.644203
+30.0 Frames	2017-09-28 08:10:58.679680
+30.0 Frames	2017-09-28 08:10:58.727776
+30.0 Frames	2017-09-28 08:10:58.747161
+30.0 Frames	2017-09-28 08:10:58.779523
+30.0 Frames	2017-09-28 08:10:58.811498
+30.0 Frames	2017-09-28 08:10:58.847280
+30.0 Frames	2017-09-28 08:10:58.879523
+30.0 Frames	2017-09-28 08:10:58.917475
+30.0 Frames	2017-09-28 08:10:58.949516
+30.0 Frames	2017-09-28 08:10:58.981891
+30.0 Frames	2017-09-28 08:10:59.017788
+30.0 Frames	2017-09-28 08:10:59.052391
+30.0 Frames	2017-09-28 08:10:59.084280
+30.0 Frames	2017-09-28 08:10:59.115615
+30.0 Frames	2017-09-28 08:10:59.147813
+30.0 Frames	2017-09-28 08:10:59.183851
+30.0 Frames	2017-09-28 08:10:59.215777
+30.0 Frames	2017-09-28 08:10:59.251565
+30.0 Frames	2017-09-28 08:10:59.284537
+30.0 Frames	2017-09-28 08:10:59.319742
+30.0 Frames	2017-09-28 08:10:59.356544
+30.0 Frames	2017-09-28 08:10:59.390731
+30.0 Frames	2017-09-28 08:10:59.776649
+30.0 Frames	2017-09-28 08:10:59.788901
+30.0 Frames	2017-09-28 08:10:59.804637
+30.0 Frames	2017-09-28 08:10:59.819614
+30.0 Frames	2017-09-28 08:10:59.835696
+30.0 Frames	2017-09-28 08:10:59.855732
+30.0 Frames	2017-09-28 08:10:59.887721
+30.0 Frames	2017-09-28 08:10:59.919489
+30.0 Frames	2017-09-28 08:10:59.955477
+30.0 Frames	2017-09-28 08:10:59.987831
+30.0 Frames	2017-09-28 08:11:00.023862
+30.0 Frames	2017-09-28 08:11:00.055392
+30.0 Frames	2017-09-28 08:11:00.087860
+30.0 Frames	2017-09-28 08:11:00.123402
+30.0 Frames	2017-09-28 08:11:00.155322
+30.0 Frames	2017-09-28 08:11:00.191758
+30.0 Frames	2017-09-28 08:11:00.224667
+30.0 Frames	2017-09-28 08:11:00.257041
+30.0 Frames	2017-09-28 08:11:00.295995
+30.0 Frames	2017-09-28 08:11:00.325968
+30.0 Frames	2017-09-28 08:11:00.356843
+30.0 Frames	2017-09-28 08:11:00.392540
+30.0 Frames	2017-09-28 08:11:00.424680
+30.0 Frames	2017-09-28 08:11:00.460427
+30.0 Frames	2017-09-28 08:11:00.492072
+30.0 Frames	2017-09-28 08:11:00.524048
+30.0 Frames	2017-09-28 08:11:00.558885
+30.0 Frames	2017-09-28 08:11:00.595192
+30.0 Frames	2017-09-28 08:11:00.627501
+30.0 Frames	2017-09-28 08:11:00.659340
+30.0 Frames	2017-09-28 08:11:00.692056
+30.0 Frames	2017-09-28 08:11:00.727201
+30.0 Frames	2017-09-28 08:11:00.760726
+30.0 Frames	2017-09-28 08:11:00.796758
+30.0 Frames	2017-09-28 08:11:00.829048
+30.0 Frames	2017-09-28 08:11:00.861314
+30.0 Frames	2017-09-28 08:11:00.895051
+30.0 Frames	2017-09-28 08:11:00.927781
+30.0 Frames	2017-09-28 08:11:00.967605
+30.0 Frames	2017-09-28 08:11:00.997886
+30.0 Frames	2017-09-28 08:11:01.028492
+30.0 Frames	2017-09-28 08:11:01.065280
+30.0 Frames	2017-09-28 08:11:01.096002
+30.0 Frames	2017-09-28 08:11:01.132691
+30.0 Frames	2017-09-28 08:11:01.163771
+30.0 Frames	2017-09-28 08:11:01.195392
+30.0 Frames	2017-09-28 08:11:01.229764
+30.0 Frames	2017-09-28 08:11:01.596055
+30.0 Frames	2017-09-28 08:11:01.620439
+30.0 Frames	2017-09-28 08:11:01.639121
+30.0 Frames	2017-09-28 08:11:01.913179
+30.0 Frames	2017-09-28 08:11:01.926643
+30.0 Frames	2017-09-28 08:11:01.940005
+30.0 Frames	2017-09-28 08:11:01.953421
+30.0 Frames	2017-09-28 08:11:01.966475
+30.0 Frames	2017-09-28 08:11:01.979324
+30.0 Frames	2017-09-28 08:11:02.005529
+30.0 Frames	2017-09-28 08:11:02.069806
+30.0 Frames	2017-09-28 08:11:02.085252
+30.0 Frames	2017-09-28 08:11:02.103680
+30.0 Frames	2017-09-28 08:11:02.137194
+30.0 Frames	2017-09-28 08:11:02.171333
+30.0 Frames	2017-09-28 08:11:02.203412
+30.0 Frames	2017-09-28 08:11:02.237680
+30.0 Frames	2017-09-28 08:11:02.271462
+30.0 Frames	2017-09-28 08:11:02.305099
+30.0 Frames	2017-09-28 08:11:02.482624
+30.0 Frames	2017-09-28 08:11:02.497980
+30.0 Frames	2017-09-28 08:11:02.511117
+30.0 Frames	2017-09-28 08:11:02.527152
+30.0 Frames	2017-09-28 08:11:02.541106
+30.0 Frames	2017-09-28 08:11:02.555985
+30.0 Frames	2017-09-28 08:11:02.569779
+30.0 Frames	2017-09-28 08:11:02.607095
+30.0 Frames	2017-09-28 08:11:02.640038
+30.0 Frames	2017-09-28 08:11:02.675605
+30.0 Frames	2017-09-28 08:11:02.708380
+30.0 Frames	2017-09-28 08:11:02.739637
+30.0 Frames	2017-09-28 08:11:02.775825
+30.0 Frames	2017-09-28 08:11:02.807316
+30.0 Frames	2017-09-28 08:11:02.843366
+30.0 Frames	2017-09-28 08:11:02.877913
+30.0 Frames	2017-09-28 08:11:02.911590
+30.0 Frames	2017-09-28 08:11:02.946058
+30.0 Frames	2017-09-28 08:11:02.978875
+30.0 Frames	2017-09-28 08:11:03.012935
+30.0 Frames	2017-09-28 08:11:03.047289
+30.0 Frames	2017-09-28 08:11:03.078795
+30.0 Frames	2017-09-28 08:11:03.114878
+30.0 Frames	2017-09-28 08:11:03.146293
+30.0 Frames	2017-09-28 08:11:03.175517
+30.0 Frames	2017-09-28 08:11:03.211129
+30.0 Frames	2017-09-28 08:11:03.243079
+30.0 Frames	2017-09-28 08:11:03.279503
+30.0 Frames	2017-09-28 08:11:03.311287
+30.0 Frames	2017-09-28 08:11:03.356407
+30.0 Frames	2017-09-28 08:11:03.379656
+30.0 Frames	2017-09-28 08:11:03.412795
+30.0 Frames	2017-09-28 08:11:03.451133
+30.0 Frames	2017-09-28 08:11:03.480689
+30.0 Frames	2017-09-28 08:11:03.512186
+30.0 Frames	2017-09-28 08:11:03.547799
+30.0 Frames	2017-09-28 08:11:03.581197
+30.0 Frames	2017-09-28 08:11:03.615369
+30.0 Frames	2017-09-28 08:11:03.648466
+30.0 Frames	2017-09-28 08:11:03.681201
+30.0 Frames	2017-09-28 08:11:03.718952
+30.0 Frames	2017-09-28 08:11:03.750117
+30.0 Frames	2017-09-28 08:11:03.783526
+30.0 Frames	2017-09-28 08:11:03.818634
+30.0 Frames	2017-09-28 08:11:03.850393
+30.0 Frames	2017-09-28 08:11:03.884803
+30.0 Frames	2017-09-28 08:11:03.917049
+30.0 Frames	2017-09-28 08:11:03.947493
+30.0 Frames	2017-09-28 08:11:03.983593
+30.0 Frames	2017-09-28 08:11:04.019405
+30.0 Frames	2017-09-28 08:11:04.054118
+30.0 Frames	2017-09-28 08:11:04.085802
+30.0 Frames	2017-09-28 08:11:04.119324
+30.0 Frames	2017-09-28 08:11:04.156188
+30.0 Frames	2017-09-28 08:11:04.189604
+30.0 Frames	2017-09-28 08:11:04.224715
+30.0 Frames	2017-09-28 08:11:04.255188
+30.0 Frames	2017-09-28 08:11:04.283470
+30.0 Frames	2017-09-28 08:11:04.319194
+30.0 Frames	2017-09-28 08:11:04.965574
+30.0 Frames	2017-09-28 08:11:04.980877
+30.0 Frames	2017-09-28 08:11:04.994663
+30.0 Frames	2017-09-28 08:11:05.010744
+30.0 Frames	2017-09-28 08:11:05.023463
+30.0 Frames	2017-09-28 08:11:05.040140
+30.0 Frames	2017-09-28 08:11:05.053855
+30.0 Frames	2017-09-28 08:11:05.091681
+30.0 Frames	2017-09-28 08:11:05.123984
+30.0 Frames	2017-09-28 08:11:05.159808
+30.0 Frames	2017-09-28 08:11:05.192068
+30.0 Frames	2017-09-28 08:11:05.223507
+30.0 Frames	2017-09-28 08:11:05.259587
+30.0 Frames	2017-09-28 08:11:05.291279
+30.0 Frames	2017-09-28 08:11:05.327303
+30.0 Frames	2017-09-28 08:11:05.359503
+30.0 Frames	2017-09-28 08:11:05.391349
+30.0 Frames	2017-09-28 08:11:05.427681
+30.0 Frames	2017-09-28 08:11:05.459782
+30.0 Frames	2017-09-28 08:11:05.495625
+30.0 Frames	2017-09-28 08:11:05.527522
+30.0 Frames	2017-09-28 08:11:05.561250
+30.0 Frames	2017-09-28 08:11:05.595978
+30.0 Frames	2017-09-28 08:11:05.628925
+30.0 Frames	2017-09-28 08:11:05.664701
+30.0 Frames	2017-09-28 08:11:05.698740
+30.0 Frames	2017-09-28 08:11:05.728544
+30.0 Frames	2017-09-28 08:11:05.765615
+30.0 Frames	2017-09-28 08:11:05.796662
+30.0 Frames	2017-09-28 08:11:05.828106
+30.0 Frames	2017-09-28 08:11:05.864276
+30.0 Frames	2017-09-28 08:11:05.896280
+30.0 Frames	2017-09-28 08:11:05.932277
+30.0 Frames	2017-09-28 08:11:05.964139
+30.0 Frames	2017-09-28 08:11:05.995627
+30.0 Frames	2017-09-28 08:11:06.031875
+30.0 Frames	2017-09-28 08:11:06.064059
+30.0 Frames	2017-09-28 08:11:06.100468
+30.0 Frames	2017-09-28 08:11:06.132140
+30.0 Frames	2017-09-28 08:11:06.163794
+30.0 Frames	2017-09-28 08:11:06.200322
+30.0 Frames	2017-09-28 08:11:06.231675
+30.0 Frames	2017-09-28 08:11:06.267942
+30.0 Frames	2017-09-28 08:11:06.299617
+30.0 Frames	2017-09-28 08:11:06.331404
+30.0 Frames	2017-09-28 08:11:06.367539
+30.0 Frames	2017-09-28 08:11:06.399580
+30.0 Frames	2017-09-28 08:11:06.435893
+30.0 Frames	2017-09-28 08:11:06.467711
+30.0 Frames	2017-09-28 08:11:06.499741
+30.0 Frames	2017-09-28 08:11:06.535873
+30.0 Frames	2017-09-28 08:11:06.567375
+Kamera 6, videowdth 176, videohight 144, 0.443284988403 seconds, 10 num_frames, 22.5588509911 fps
+Kamera 6, videowdth 176, videohight 144, 1506586295.46, Nummer 0
+Kamera 6, videowdth 176, videohight 144, 1506586295.48, Nummer 1
+Kamera 6, videowdth 176, videohight 144, 1506586295.61, Nummer 2
+Kamera 6, videowdth 176, videohight 144, 1506586295.65, Nummer 3
+Kamera 6, videowdth 176, videohight 144, 1506586295.68, Nummer 4
+Kamera 6, videowdth 176, videohight 144, 1506586295.71, Nummer 5
+Kamera 6, videowdth 176, videohight 144, 1506586295.75, Nummer 6
+Kamera 6, videowdth 176, videohight 144, 1506586295.78, Nummer 7
+Kamera 6, videowdth 176, videohight 144, 1506586295.82, Nummer 8
+Kamera 6, videowdth 176, videohight 144, 1506586295.85, Nummer 9
+Kamera 6, videowdth 320, videohight 240, 0.343262910843 seconds, 10 num_frames, 29.1321890135 fps
+Kamera 6, videowdth 320, videohight 240, 1506586296.49, Nummer 0
+Kamera 6, videowdth 320, videohight 240, 1506586296.51, Nummer 1
+Kamera 6, videowdth 320, videohight 240, 1506586296.54, Nummer 2
+Kamera 6, videowdth 320, videohight 240, 1506586296.58, Nummer 3
+Kamera 6, videowdth 320, videohight 240, 1506586296.61, Nummer 4
+Kamera 6, videowdth 320, videohight 240, 1506586296.64, Nummer 5
+Kamera 6, videowdth 320, videohight 240, 1506586296.68, Nummer 6
+Kamera 6, videowdth 320, videohight 240, 1506586296.71, Nummer 7
+Kamera 6, videowdth 320, videohight 240, 1506586296.74, Nummer 8
+Kamera 6, videowdth 320, videohight 240, 1506586296.78, Nummer 9
+Kamera 6, videowdth 352, videohight 288, 0.343842983246 seconds, 10 num_frames, 29.0830422235 fps
+Kamera 6, videowdth 352, videohight 288, 1506586297.42, Nummer 0
+Kamera 6, videowdth 352, videohight 288, 1506586297.44, Nummer 1
+Kamera 6, videowdth 352, videohight 288, 1506586297.47, Nummer 2
+Kamera 6, videowdth 352, videohight 288, 1506586297.51, Nummer 3
+Kamera 6, videowdth 352, videohight 288, 1506586297.54, Nummer 4
+Kamera 6, videowdth 352, videohight 288, 1506586297.57, Nummer 5
+Kamera 6, videowdth 352, videohight 288, 1506586297.61, Nummer 6
+Kamera 6, videowdth 352, videohight 288, 1506586297.64, Nummer 7
+Kamera 6, videowdth 352, videohight 288, 1506586297.68, Nummer 8
+Kamera 6, videowdth 352, videohight 288, 1506586297.71, Nummer 9
+Kamera 6, videowdth 432, videohight 240, 0.347151994705 seconds, 10 num_frames, 28.8058261295 fps
+Kamera 6, videowdth 432, videohight 240, 1506586298.34, Nummer 0
+Kamera 6, videowdth 432, videohight 240, 1506586298.37, Nummer 1
+Kamera 6, videowdth 432, videohight 240, 1506586298.4, Nummer 2
+Kamera 6, videowdth 432, videohight 240, 1506586298.43, Nummer 3
+Kamera 6, videowdth 432, videohight 240, 1506586298.47, Nummer 4
+Kamera 6, videowdth 432, videohight 240, 1506586298.5, Nummer 5
+Kamera 6, videowdth 432, videohight 240, 1506586298.53, Nummer 6
+Kamera 6, videowdth 432, videohight 240, 1506586298.57, Nummer 7
+Kamera 6, videowdth 432, videohight 240, 1506586298.6, Nummer 8
+Kamera 6, videowdth 432, videohight 240, 1506586298.63, Nummer 9
+Kamera 6, videowdth 544, videohight 288, 0.34473490715 seconds, 10 num_frames, 29.0077964041 fps
+Kamera 6, videowdth 544, videohight 288, 1506586299.27, Nummer 0
+Kamera 6, videowdth 544, videohight 288, 1506586299.3, Nummer 1
+Kamera 6, videowdth 544, videohight 288, 1506586299.33, Nummer 2
+Kamera 6, videowdth 544, videohight 288, 1506586299.36, Nummer 3
+Kamera 6, videowdth 544, videohight 288, 1506586299.4, Nummer 4
+Kamera 6, videowdth 544, videohight 288, 1506586299.43, Nummer 5
+Kamera 6, videowdth 544, videohight 288, 1506586299.46, Nummer 6
+Kamera 6, videowdth 544, videohight 288, 1506586299.5, Nummer 7
+Kamera 6, videowdth 544, videohight 288, 1506586299.53, Nummer 8
+Kamera 6, videowdth 544, videohight 288, 1506586299.56, Nummer 9
+Kamera 6, videowdth 640, videohight 480, 0.349932909012 seconds, 10 num_frames, 28.5769064368 fps
+Kamera 6, videowdth 640, videohight 480, 1506586300.21, Nummer 0
+Kamera 6, videowdth 640, videohight 480, 1506586300.23, Nummer 1
+Kamera 6, videowdth 640, videohight 480, 1506586300.27, Nummer 2
+Kamera 6, videowdth 640, videohight 480, 1506586300.3, Nummer 3
+Kamera 6, videowdth 640, videohight 480, 1506586300.33, Nummer 4
+Kamera 6, videowdth 640, videohight 480, 1506586300.37, Nummer 5
+Kamera 6, videowdth 640, videohight 480, 1506586300.4, Nummer 6
+Kamera 6, videowdth 640, videohight 480, 1506586300.43, Nummer 7
+Kamera 6, videowdth 640, videohight 480, 1506586300.47, Nummer 8
+Kamera 6, videowdth 640, videohight 480, 1506586300.5, Nummer 9
+Kamera 6, videowdth 800, videohight 448, 0.519998073578 seconds, 10 num_frames, 19.2308404745 fps
+Kamera 6, videowdth 800, videohight 448, 1506586301.24, Nummer 0
+Kamera 6, videowdth 800, videohight 448, 1506586301.28, Nummer 1
+Kamera 6, videowdth 800, videohight 448, 1506586301.33, Nummer 2
+Kamera 6, videowdth 800, videohight 448, 1506586301.38, Nummer 3
+Kamera 6, videowdth 800, videohight 448, 1506586301.43, Nummer 4
+Kamera 6, videowdth 800, videohight 448, 1506586301.48, Nummer 5
+Kamera 6, videowdth 800, videohight 448, 1506586301.53, Nummer 6
+Kamera 6, videowdth 800, videohight 448, 1506586301.58, Nummer 7
+Kamera 6, videowdth 800, videohight 448, 1506586301.64, Nummer 8
+Kamera 6, videowdth 800, videohight 448, 1506586301.68, Nummer 9
+Kamera 6, videowdth 864, videohight 480, 0.34712100029 seconds, 10 num_frames, 28.8083982002 fps
+Kamera 6, videowdth 864, videohight 480, 1506586302.96, Nummer 0
+Kamera 6, videowdth 864, videohight 480, 1506586302.98, Nummer 1
+Kamera 6, videowdth 864, videohight 480, 1506586303.02, Nummer 2
+Kamera 6, videowdth 864, videohight 480, 1506586303.05, Nummer 3
+Kamera 6, videowdth 864, videohight 480, 1506586303.08, Nummer 4
+Kamera 6, videowdth 864, videohight 480, 1506586303.12, Nummer 5
+Kamera 6, videowdth 864, videohight 480, 1506586303.15, Nummer 6
+Kamera 6, videowdth 864, videohight 480, 1506586303.18, Nummer 7
+Kamera 6, videowdth 864, videohight 480, 1506586303.22, Nummer 8
+Kamera 6, videowdth 864, videohight 480, 1506586303.25, Nummer 9
+Kamera 6, videowdth 960, videohight 544, 0.341944932938 seconds, 10 num_frames, 29.2444748752 fps
+Kamera 6, videowdth 960, videohight 544, 1506586304.5, Nummer 0
+Kamera 6, videowdth 960, videohight 544, 1506586304.53, Nummer 1
+Kamera 6, videowdth 960, videohight 544, 1506586304.56, Nummer 2
+Kamera 6, videowdth 960, videohight 544, 1506586304.6, Nummer 3
+Kamera 6, videowdth 960, videohight 544, 1506586304.62, Nummer 4
+Kamera 6, videowdth 960, videohight 544, 1506586304.66, Nummer 5
+Kamera 6, videowdth 960, videohight 544, 1506586304.69, Nummer 6
+Kamera 6, videowdth 960, videohight 544, 1506586304.73, Nummer 7
+Kamera 6, videowdth 960, videohight 544, 1506586304.76, Nummer 8
+Kamera 6, videowdth 960, videohight 544, 1506586304.79, Nummer 9
+Kamera 6, videowdth 960, videohight 720, 0.352212190628 seconds, 10 num_frames, 28.3919758205 fps
+Kamera 6, videowdth 960, videohight 720, 1506586306.07, Nummer 0
+Kamera 6, videowdth 960, videohight 720, 1506586306.1, Nummer 1
+Kamera 6, videowdth 960, videohight 720, 1506586306.14, Nummer 2
+Kamera 6, videowdth 960, videohight 720, 1506586306.17, Nummer 3
+Kamera 6, videowdth 960, videohight 720, 1506586306.21, Nummer 4
+Kamera 6, videowdth 960, videohight 720, 1506586306.24, Nummer 5
+Kamera 6, videowdth 960, videohight 720, 1506586306.27, Nummer 6
+Kamera 6, videowdth 960, videohight 720, 1506586306.31, Nummer 7
+Kamera 6, videowdth 960, videohight 720, 1506586306.34, Nummer 8
+Kamera 6, videowdth 960, videohight 720, 1506586306.38, Nummer 9
+Kamera 6, videowdth 1184, videohight 656, 0.351204156876 seconds, 10 num_frames, 28.4734670824 fps
+Kamera 6, videowdth 1184, videohight 656, 1506586307.83, Nummer 0
+Kamera 6, videowdth 1184, videohight 656, 1506586307.86, Nummer 1
+Kamera 6, videowdth 1184, videohight 656, 1506586307.9, Nummer 2
+Kamera 6, videowdth 1184, videohight 656, 1506586307.93, Nummer 3
+Kamera 6, videowdth 1184, videohight 656, 1506586307.96, Nummer 4
+Kamera 6, videowdth 1184, videohight 656, 1506586308.0, Nummer 5
+Kamera 6, videowdth 1184, videohight 656, 1506586308.03, Nummer 6
+Kamera 6, videowdth 1184, videohight 656, 1506586308.07, Nummer 7
+Kamera 6, videowdth 1184, videohight 656, 1506586308.1, Nummer 8
+Kamera 6, videowdth 1184, videohight 656, 1506586308.13, Nummer 9
+Kamera 6, videowdth 1280, videohight 960, 0.51839184761 seconds, 10 num_frames, 19.2904268192 fps
+Kamera 6, videowdth 1280, videohight 960, 1506586309.42, Nummer 0
+Kamera 6, videowdth 1280, videohight 960, 1506586309.47, Nummer 1
+Kamera 6, videowdth 1280, videohight 960, 1506586309.53, Nummer 2
+Kamera 6, videowdth 1280, videohight 960, 1506586309.58, Nummer 3
+Kamera 6, videowdth 1280, videohight 960, 1506586309.63, Nummer 4
+Kamera 6, videowdth 1280, videohight 960, 1506586309.68, Nummer 5
+Kamera 6, videowdth 1280, videohight 960, 1506586309.73, Nummer 6
+Kamera 6, videowdth 1280, videohight 960, 1506586309.78, Nummer 7
+Kamera 6, videowdth 1280, videohight 960, 1506586309.83, Nummer 8
+Kamera 6, videowdth 1280, videohight 960, 1506586309.87, Nummer 9
+Kamera 7, videowdth 432, videohight 240, 0.328027009964 seconds, 10 num_frames, 30.4852944917 fps
+Kamera 7, videowdth 432, videohight 240, 1506586312.01, Nummer 0
+Kamera 7, videowdth 432, videohight 240, 1506586312.02, Nummer 1
+Kamera 7, videowdth 432, videohight 240, 1506586312.03, Nummer 2
+Kamera 7, videowdth 432, videohight 240, 1506586312.06, Nummer 3
+Kamera 7, videowdth 432, videohight 240, 1506586312.09, Nummer 4
+Kamera 7, videowdth 432, videohight 240, 1506586312.12, Nummer 5
+Kamera 7, videowdth 432, videohight 240, 1506586312.16, Nummer 6
+Kamera 7, videowdth 432, videohight 240, 1506586312.19, Nummer 7
+Kamera 7, videowdth 432, videohight 240, 1506586312.23, Nummer 8
+Kamera 7, videowdth 432, videohight 240, 1506586312.26, Nummer 9
+Kamera 7, videowdth 432, videohight 240, 0.296812057495 seconds, 10 num_frames, 33.6913536613 fps
+Kamera 7, videowdth 432, videohight 240, 1506586326.72, Nummer 0
+Kamera 7, videowdth 432, videohight 240, 1506586326.73, Nummer 1
+Kamera 7, videowdth 432, videohight 240, 1506586326.73, Nummer 2
+Kamera 7, videowdth 432, videohight 240, 1506586326.74, Nummer 3
+Kamera 7, videowdth 432, videohight 240, 1506586326.75, Nummer 4
+Kamera 7, videowdth 432, videohight 240, 1506586326.78, Nummer 5
+Kamera 7, videowdth 432, videohight 240, 1506586326.82, Nummer 6
+Kamera 7, videowdth 432, videohight 240, 1506586326.85, Nummer 7
+Kamera 7, videowdth 432, videohight 240, 1506586326.88, Nummer 8
+Kamera 7, videowdth 432, videohight 240, 1506586326.92, Nummer 9
+Kamera 7, videowdth 432, videohight 240, 3.26304888725 seconds, 100 num_frames, 30.646185042 fps
+Kamera 7, videowdth 432, videohight 240, 1506586356.23, Nummer 0
+Kamera 7, videowdth 432, videohight 240, 1506586356.24, Nummer 1
+Kamera 7, videowdth 432, videohight 240, 1506586356.24, Nummer 2
+Kamera 7, videowdth 432, videohight 240, 1506586356.25, Nummer 3
+Kamera 7, videowdth 432, videohight 240, 1506586356.25, Nummer 4
+Kamera 7, videowdth 432, videohight 240, 1506586356.28, Nummer 5
+Kamera 7, videowdth 432, videohight 240, 1506586356.32, Nummer 6
+Kamera 7, videowdth 432, videohight 240, 1506586356.35, Nummer 7
+Kamera 7, videowdth 432, videohight 240, 1506586356.39, Nummer 8
+Kamera 7, videowdth 432, videohight 240, 1506586356.42, Nummer 9
+Kamera 7, videowdth 432, videohight 240, 1506586356.45, Nummer 10
+Kamera 7, videowdth 432, videohight 240, 1506586356.49, Nummer 11
+Kamera 7, videowdth 432, videohight 240, 1506586356.52, Nummer 12
+Kamera 7, videowdth 432, videohight 240, 1506586356.56, Nummer 13
+Kamera 7, videowdth 432, videohight 240, 1506586356.59, Nummer 14
+Kamera 7, videowdth 432, videohight 240, 1506586356.62, Nummer 15
+Kamera 7, videowdth 432, videohight 240, 1506586356.66, Nummer 16
+Kamera 7, videowdth 432, videohight 240, 1506586356.69, Nummer 17
+Kamera 7, videowdth 432, videohight 240, 1506586356.72, Nummer 18
+Kamera 7, videowdth 432, videohight 240, 1506586356.76, Nummer 19
+Kamera 7, videowdth 432, videohight 240, 1506586356.79, Nummer 20
+Kamera 7, videowdth 432, videohight 240, 1506586356.82, Nummer 21
+Kamera 7, videowdth 432, videohight 240, 1506586356.86, Nummer 22
+Kamera 7, videowdth 432, videohight 240, 1506586356.89, Nummer 23
+Kamera 7, videowdth 432, videohight 240, 1506586356.92, Nummer 24
+Kamera 7, videowdth 432, videohight 240, 1506586356.96, Nummer 25
+Kamera 7, videowdth 432, videohight 240, 1506586356.99, Nummer 26
+Kamera 7, videowdth 432, videohight 240, 1506586357.02, Nummer 27
+Kamera 7, videowdth 432, videohight 240, 1506586357.06, Nummer 28
+Kamera 7, videowdth 432, videohight 240, 1506586357.09, Nummer 29
+Kamera 7, videowdth 432, videohight 240, 1506586357.12, Nummer 30
+Kamera 7, videowdth 432, videohight 240, 1506586357.16, Nummer 31
+Kamera 7, videowdth 432, videohight 240, 1506586357.19, Nummer 32
+Kamera 7, videowdth 432, videohight 240, 1506586357.22, Nummer 33
+Kamera 7, videowdth 432, videohight 240, 1506586357.26, Nummer 34
+Kamera 7, videowdth 432, videohight 240, 1506586357.29, Nummer 35
+Kamera 7, videowdth 432, videohight 240, 1506586357.33, Nummer 36
+Kamera 7, videowdth 432, videohight 240, 1506586357.36, Nummer 37
+Kamera 7, videowdth 432, videohight 240, 1506586357.39, Nummer 38
+Kamera 7, videowdth 432, videohight 240, 1506586357.43, Nummer 39
+Kamera 7, videowdth 432, videohight 240, 1506586357.46, Nummer 40
+Kamera 7, videowdth 432, videohight 240, 1506586357.5, Nummer 41
+Kamera 7, videowdth 432, videohight 240, 1506586357.53, Nummer 42
+Kamera 7, videowdth 432, videohight 240, 1506586357.56, Nummer 43
+Kamera 7, videowdth 432, videohight 240, 1506586357.6, Nummer 44
+Kamera 7, videowdth 432, videohight 240, 1506586357.63, Nummer 45
+Kamera 7, videowdth 432, videohight 240, 1506586357.66, Nummer 46
+Kamera 7, videowdth 432, videohight 240, 1506586357.7, Nummer 47
+Kamera 7, videowdth 432, videohight 240, 1506586357.73, Nummer 48
+Kamera 7, videowdth 432, videohight 240, 1506586357.76, Nummer 49
+Kamera 7, videowdth 432, videohight 240, 1506586357.8, Nummer 50
+Kamera 7, videowdth 432, videohight 240, 1506586357.83, Nummer 51
+Kamera 7, videowdth 432, videohight 240, 1506586357.86, Nummer 52
+Kamera 7, videowdth 432, videohight 240, 1506586357.9, Nummer 53
+Kamera 7, videowdth 432, videohight 240, 1506586357.93, Nummer 54
+Kamera 7, videowdth 432, videohight 240, 1506586357.96, Nummer 55
+Kamera 7, videowdth 432, videohight 240, 1506586358.0, Nummer 56
+Kamera 7, videowdth 432, videohight 240, 1506586358.03, Nummer 57
+Kamera 7, videowdth 432, videohight 240, 1506586358.06, Nummer 58
+Kamera 7, videowdth 432, videohight 240, 1506586358.1, Nummer 59
+Kamera 7, videowdth 432, videohight 240, 1506586358.13, Nummer 60
+Kamera 7, videowdth 432, videohight 240, 1506586358.16, Nummer 61
+Kamera 7, videowdth 432, videohight 240, 1506586358.2, Nummer 62
+Kamera 7, videowdth 432, videohight 240, 1506586358.23, Nummer 63
+Kamera 7, videowdth 432, videohight 240, 1506586358.27, Nummer 64
+Kamera 7, videowdth 432, videohight 240, 1506586358.3, Nummer 65
+Kamera 7, videowdth 432, videohight 240, 1506586358.33, Nummer 66
+Kamera 7, videowdth 432, videohight 240, 1506586358.37, Nummer 67
+Kamera 7, videowdth 432, videohight 240, 1506586358.4, Nummer 68
+Kamera 7, videowdth 432, videohight 240, 1506586358.44, Nummer 69
+Kamera 7, videowdth 432, videohight 240, 1506586358.47, Nummer 70
+Kamera 7, videowdth 432, videohight 240, 1506586358.5, Nummer 71
+Kamera 7, videowdth 432, videohight 240, 1506586358.54, Nummer 72
+Kamera 7, videowdth 432, videohight 240, 1506586358.57, Nummer 73
+Kamera 7, videowdth 432, videohight 240, 1506586358.6, Nummer 74
+Kamera 7, videowdth 432, videohight 240, 1506586358.64, Nummer 75
+Kamera 7, videowdth 432, videohight 240, 1506586358.67, Nummer 76
+Kamera 7, videowdth 432, videohight 240, 1506586358.7, Nummer 77
+Kamera 7, videowdth 432, videohight 240, 1506586358.74, Nummer 78
+Kamera 7, videowdth 432, videohight 240, 1506586358.77, Nummer 79
+Kamera 7, videowdth 432, videohight 240, 1506586358.8, Nummer 80
+Kamera 7, videowdth 432, videohight 240, 1506586358.84, Nummer 81
+Kamera 7, videowdth 432, videohight 240, 1506586358.87, Nummer 82
+Kamera 7, videowdth 432, videohight 240, 1506586358.9, Nummer 83
+Kamera 7, videowdth 432, videohight 240, 1506586358.94, Nummer 84
+Kamera 7, videowdth 432, videohight 240, 1506586358.97, Nummer 85
+Kamera 7, videowdth 432, videohight 240, 1506586359.0, Nummer 86
+Kamera 7, videowdth 432, videohight 240, 1506586359.04, Nummer 87
+Kamera 7, videowdth 432, videohight 240, 1506586359.07, Nummer 88
+Kamera 7, videowdth 432, videohight 240, 1506586359.1, Nummer 89
+Kamera 7, videowdth 432, videohight 240, 1506586359.14, Nummer 90
+Kamera 7, videowdth 432, videohight 240, 1506586359.17, Nummer 91
+Kamera 7, videowdth 432, videohight 240, 1506586359.21, Nummer 92
+Kamera 7, videowdth 432, videohight 240, 1506586359.24, Nummer 93
+Kamera 7, videowdth 432, videohight 240, 1506586359.27, Nummer 94
+Kamera 7, videowdth 432, videohight 240, 1506586359.31, Nummer 95
+Kamera 7, videowdth 432, videohight 240, 1506586359.34, Nummer 96
+Kamera 7, videowdth 432, videohight 240, 1506586359.38, Nummer 97
+Kamera 7, videowdth 432, videohight 240, 1506586359.41, Nummer 98
+Kamera 7, videowdth 432, videohight 240, 1506586359.44, Nummer 99
+Kamera 6, videowdth 432, videohight 240, 3.27871417999 seconds, 100 num_frames, 30.4997613425 fps
+Kamera 6, videowdth 432, videohight 240, 1506586422.75, Nummer 0
+Kamera 6, videowdth 432, videohight 240, 1506586422.75, Nummer 1
+Kamera 6, videowdth 432, videohight 240, 1506586422.76, Nummer 2
+Kamera 6, videowdth 432, videohight 240, 1506586422.76, Nummer 3
+Kamera 6, videowdth 432, videohight 240, 1506586422.77, Nummer 4
+Kamera 6, videowdth 432, videohight 240, 1506586422.82, Nummer 5
+Kamera 6, videowdth 432, videohight 240, 1506586422.85, Nummer 6
+Kamera 6, videowdth 432, videohight 240, 1506586422.88, Nummer 7
+Kamera 6, videowdth 432, videohight 240, 1506586422.92, Nummer 8
+Kamera 6, videowdth 432, videohight 240, 1506586422.95, Nummer 9
+Kamera 6, videowdth 432, videohight 240, 1506586422.98, Nummer 10
+Kamera 6, videowdth 432, videohight 240, 1506586423.02, Nummer 11
+Kamera 6, videowdth 432, videohight 240, 1506586423.05, Nummer 12
+Kamera 6, videowdth 432, videohight 240, 1506586423.08, Nummer 13
+Kamera 6, videowdth 432, videohight 240, 1506586423.12, Nummer 14
+Kamera 6, videowdth 432, videohight 240, 1506586423.15, Nummer 15
+Kamera 6, videowdth 432, videohight 240, 1506586423.18, Nummer 16
+Kamera 6, videowdth 432, videohight 240, 1506586423.22, Nummer 17
+Kamera 6, videowdth 432, videohight 240, 1506586423.25, Nummer 18
+Kamera 6, videowdth 432, videohight 240, 1506586423.29, Nummer 19
+Kamera 6, videowdth 432, videohight 240, 1506586423.32, Nummer 20
+Kamera 6, videowdth 432, videohight 240, 1506586423.35, Nummer 21
+Kamera 6, videowdth 432, videohight 240, 1506586423.39, Nummer 22
+Kamera 6, videowdth 432, videohight 240, 1506586423.42, Nummer 23
+Kamera 6, videowdth 432, videohight 240, 1506586423.46, Nummer 24
+Kamera 6, videowdth 432, videohight 240, 1506586423.49, Nummer 25
+Kamera 6, videowdth 432, videohight 240, 1506586423.52, Nummer 26
+Kamera 6, videowdth 432, videohight 240, 1506586423.56, Nummer 27
+Kamera 6, videowdth 432, videohight 240, 1506586423.59, Nummer 28
+Kamera 6, videowdth 432, videohight 240, 1506586423.62, Nummer 29
+Kamera 6, videowdth 432, videohight 240, 1506586423.66, Nummer 30
+Kamera 6, videowdth 432, videohight 240, 1506586423.69, Nummer 31
+Kamera 6, videowdth 432, videohight 240, 1506586423.72, Nummer 32
+Kamera 6, videowdth 432, videohight 240, 1506586423.76, Nummer 33
+Kamera 6, videowdth 432, videohight 240, 1506586423.79, Nummer 34
+Kamera 6, videowdth 432, videohight 240, 1506586423.82, Nummer 35
+Kamera 6, videowdth 432, videohight 240, 1506586423.86, Nummer 36
+Kamera 6, videowdth 432, videohight 240, 1506586423.89, Nummer 37
+Kamera 6, videowdth 432, videohight 240, 1506586423.92, Nummer 38
+Kamera 6, videowdth 432, videohight 240, 1506586423.96, Nummer 39
+Kamera 6, videowdth 432, videohight 240, 1506586423.99, Nummer 40
+Kamera 6, videowdth 432, videohight 240, 1506586424.02, Nummer 41
+Kamera 6, videowdth 432, videohight 240, 1506586424.06, Nummer 42
+Kamera 6, videowdth 432, videohight 240, 1506586424.09, Nummer 43
+Kamera 6, videowdth 432, videohight 240, 1506586424.12, Nummer 44
+Kamera 6, videowdth 432, videohight 240, 1506586424.16, Nummer 45
+Kamera 6, videowdth 432, videohight 240, 1506586424.19, Nummer 46
+Kamera 6, videowdth 432, videohight 240, 1506586424.23, Nummer 47
+Kamera 6, videowdth 432, videohight 240, 1506586424.26, Nummer 48
+Kamera 6, videowdth 432, videohight 240, 1506586424.29, Nummer 49
+Kamera 6, videowdth 432, videohight 240, 1506586424.33, Nummer 50
+Kamera 6, videowdth 432, videohight 240, 1506586424.36, Nummer 51
+Kamera 6, videowdth 432, videohight 240, 1506586424.4, Nummer 52
+Kamera 6, videowdth 432, videohight 240, 1506586424.43, Nummer 53
+Kamera 6, videowdth 432, videohight 240, 1506586424.46, Nummer 54
+Kamera 6, videowdth 432, videohight 240, 1506586424.5, Nummer 55
+Kamera 6, videowdth 432, videohight 240, 1506586424.53, Nummer 56
+Kamera 6, videowdth 432, videohight 240, 1506586424.56, Nummer 57
+Kamera 6, videowdth 432, videohight 240, 1506586424.6, Nummer 58
+Kamera 6, videowdth 432, videohight 240, 1506586424.63, Nummer 59
+Kamera 6, videowdth 432, videohight 240, 1506586424.66, Nummer 60
+Kamera 6, videowdth 432, videohight 240, 1506586424.7, Nummer 61
+Kamera 6, videowdth 432, videohight 240, 1506586424.73, Nummer 62
+Kamera 6, videowdth 432, videohight 240, 1506586424.76, Nummer 63
+Kamera 6, videowdth 432, videohight 240, 1506586424.8, Nummer 64
+Kamera 6, videowdth 432, videohight 240, 1506586424.83, Nummer 65
+Kamera 6, videowdth 432, videohight 240, 1506586424.86, Nummer 66
+Kamera 6, videowdth 432, videohight 240, 1506586424.9, Nummer 67
+Kamera 6, videowdth 432, videohight 240, 1506586424.93, Nummer 68
+Kamera 6, videowdth 432, videohight 240, 1506586424.96, Nummer 69
+Kamera 6, videowdth 432, videohight 240, 1506586425.0, Nummer 70
+Kamera 6, videowdth 432, videohight 240, 1506586425.03, Nummer 71
+Kamera 6, videowdth 432, videohight 240, 1506586425.06, Nummer 72
+Kamera 6, videowdth 432, videohight 240, 1506586425.1, Nummer 73
+Kamera 6, videowdth 432, videohight 240, 1506586425.13, Nummer 74
+Kamera 6, videowdth 432, videohight 240, 1506586425.17, Nummer 75
+Kamera 6, videowdth 432, videohight 240, 1506586425.2, Nummer 76
+Kamera 6, videowdth 432, videohight 240, 1506586425.23, Nummer 77
+Kamera 6, videowdth 432, videohight 240, 1506586425.27, Nummer 78
+Kamera 6, videowdth 432, videohight 240, 1506586425.3, Nummer 79
+Kamera 6, videowdth 432, videohight 240, 1506586425.34, Nummer 80
+Kamera 6, videowdth 432, videohight 240, 1506586425.37, Nummer 81
+Kamera 6, videowdth 432, videohight 240, 1506586425.4, Nummer 82
+Kamera 6, videowdth 432, videohight 240, 1506586425.44, Nummer 83
+Kamera 6, videowdth 432, videohight 240, 1506586425.47, Nummer 84
+Kamera 6, videowdth 432, videohight 240, 1506586425.5, Nummer 85
+Kamera 6, videowdth 432, videohight 240, 1506586425.54, Nummer 86
+Kamera 6, videowdth 432, videohight 240, 1506586425.57, Nummer 87
+Kamera 6, videowdth 432, videohight 240, 1506586425.6, Nummer 88
+Kamera 6, videowdth 432, videohight 240, 1506586425.64, Nummer 89
+Kamera 6, videowdth 432, videohight 240, 1506586425.67, Nummer 90
+Kamera 6, videowdth 432, videohight 240, 1506586425.7, Nummer 91
+Kamera 6, videowdth 432, videohight 240, 1506586425.74, Nummer 92
+Kamera 6, videowdth 432, videohight 240, 1506586425.77, Nummer 93
+Kamera 6, videowdth 432, videohight 240, 1506586425.8, Nummer 94
+Kamera 6, videowdth 432, videohight 240, 1506586425.84, Nummer 95
+Kamera 6, videowdth 432, videohight 240, 1506586425.87, Nummer 96
+Kamera 6, videowdth 432, videohight 240, 1506586425.9, Nummer 97
+Kamera 6, videowdth 432, videohight 240, 1506586425.94, Nummer 98
+Kamera 6, videowdth 432, videohight 240, 1506586425.97, Nummer 99
+Kamera 7, videowdth 176, videohight 144, 3.39592003822 seconds, 100 num_frames, 29.4471008959 fps
+Kamera 7, videowdth 176, videohight 144, 1506586424.48, Nummer 0
+Kamera 7, videowdth 176, videohight 144, 1506586424.5, Nummer 1
+Kamera 7, videowdth 176, videohight 144, 1506586424.53, Nummer 2
+Kamera 7, videowdth 176, videohight 144, 1506586424.57, Nummer 3
+Kamera 7, videowdth 176, videohight 144, 1506586424.6, Nummer 4
+Kamera 7, videowdth 176, videohight 144, 1506586424.63, Nummer 5
+Kamera 7, videowdth 176, videohight 144, 1506586424.67, Nummer 6
+Kamera 7, videowdth 176, videohight 144, 1506586424.7, Nummer 7
+Kamera 7, videowdth 176, videohight 144, 1506586424.74, Nummer 8
+Kamera 7, videowdth 176, videohight 144, 1506586424.77, Nummer 9
+Kamera 7, videowdth 176, videohight 144, 1506586424.8, Nummer 10
+Kamera 7, videowdth 176, videohight 144, 1506586424.84, Nummer 11
+Kamera 7, videowdth 176, videohight 144, 1506586424.87, Nummer 12
+Kamera 7, videowdth 176, videohight 144, 1506586424.9, Nummer 13
+Kamera 7, videowdth 176, videohight 144, 1506586424.94, Nummer 14
+Kamera 7, videowdth 176, videohight 144, 1506586424.97, Nummer 15
+Kamera 7, videowdth 176, videohight 144, 1506586425.0, Nummer 16
+Kamera 7, videowdth 176, videohight 144, 1506586425.04, Nummer 17
+Kamera 7, videowdth 176, videohight 144, 1506586425.07, Nummer 18
+Kamera 7, videowdth 176, videohight 144, 1506586425.1, Nummer 19
+Kamera 7, videowdth 176, videohight 144, 1506586425.14, Nummer 20
+Kamera 7, videowdth 176, videohight 144, 1506586425.17, Nummer 21
+Kamera 7, videowdth 176, videohight 144, 1506586425.2, Nummer 22
+Kamera 7, videowdth 176, videohight 144, 1506586425.24, Nummer 23
+Kamera 7, videowdth 176, videohight 144, 1506586425.27, Nummer 24
+Kamera 7, videowdth 176, videohight 144, 1506586425.3, Nummer 25
+Kamera 7, videowdth 176, videohight 144, 1506586425.34, Nummer 26
+Kamera 7, videowdth 176, videohight 144, 1506586425.37, Nummer 27
+Kamera 7, videowdth 176, videohight 144, 1506586425.41, Nummer 28
+Kamera 7, videowdth 176, videohight 144, 1506586425.44, Nummer 29
+Kamera 7, videowdth 176, videohight 144, 1506586425.47, Nummer 30
+Kamera 7, videowdth 176, videohight 144, 1506586425.51, Nummer 31
+Kamera 7, videowdth 176, videohight 144, 1506586425.54, Nummer 32
+Kamera 7, videowdth 176, videohight 144, 1506586425.57, Nummer 33
+Kamera 7, videowdth 176, videohight 144, 1506586425.61, Nummer 34
+Kamera 7, videowdth 176, videohight 144, 1506586425.64, Nummer 35
+Kamera 7, videowdth 176, videohight 144, 1506586425.68, Nummer 36
+Kamera 7, videowdth 176, videohight 144, 1506586425.71, Nummer 37
+Kamera 7, videowdth 176, videohight 144, 1506586425.74, Nummer 38
+Kamera 7, videowdth 176, videohight 144, 1506586425.78, Nummer 39
+Kamera 7, videowdth 176, videohight 144, 1506586425.81, Nummer 40
+Kamera 7, videowdth 176, videohight 144, 1506586425.84, Nummer 41
+Kamera 7, videowdth 176, videohight 144, 1506586425.88, Nummer 42
+Kamera 7, videowdth 176, videohight 144, 1506586425.91, Nummer 43
+Kamera 7, videowdth 176, videohight 144, 1506586425.94, Nummer 44
+Kamera 7, videowdth 176, videohight 144, 1506586425.98, Nummer 45
+Kamera 7, videowdth 176, videohight 144, 1506586426.01, Nummer 46
+Kamera 7, videowdth 176, videohight 144, 1506586426.06, Nummer 47
+Kamera 7, videowdth 176, videohight 144, 1506586426.08, Nummer 48
+Kamera 7, videowdth 176, videohight 144, 1506586426.11, Nummer 49
+Kamera 7, videowdth 176, videohight 144, 1506586426.14, Nummer 50
+Kamera 7, videowdth 176, videohight 144, 1506586426.18, Nummer 51
+Kamera 7, videowdth 176, videohight 144, 1506586426.21, Nummer 52
+Kamera 7, videowdth 176, videohight 144, 1506586426.24, Nummer 53
+Kamera 7, videowdth 176, videohight 144, 1506586426.28, Nummer 54
+Kamera 7, videowdth 176, videohight 144, 1506586426.31, Nummer 55
+Kamera 7, videowdth 176, videohight 144, 1506586426.35, Nummer 56
+Kamera 7, videowdth 176, videohight 144, 1506586426.38, Nummer 57
+Kamera 7, videowdth 176, videohight 144, 1506586426.41, Nummer 58
+Kamera 7, videowdth 176, videohight 144, 1506586426.45, Nummer 59
+Kamera 7, videowdth 176, videohight 144, 1506586426.48, Nummer 60
+Kamera 7, videowdth 176, videohight 144, 1506586426.51, Nummer 61
+Kamera 7, videowdth 176, videohight 144, 1506586426.55, Nummer 62
+Kamera 7, videowdth 176, videohight 144, 1506586426.58, Nummer 63
+Kamera 7, videowdth 176, videohight 144, 1506586426.62, Nummer 64
+Kamera 7, videowdth 176, videohight 144, 1506586426.65, Nummer 65
+Kamera 7, videowdth 176, videohight 144, 1506586426.68, Nummer 66
+Kamera 7, videowdth 176, videohight 144, 1506586426.72, Nummer 67
+Kamera 7, videowdth 176, videohight 144, 1506586426.75, Nummer 68
+Kamera 7, videowdth 176, videohight 144, 1506586426.78, Nummer 69
+Kamera 7, videowdth 176, videohight 144, 1506586426.82, Nummer 70
+Kamera 7, videowdth 176, videohight 144, 1506586426.85, Nummer 71
+Kamera 7, videowdth 176, videohight 144, 1506586426.88, Nummer 72
+Kamera 7, videowdth 176, videohight 144, 1506586426.92, Nummer 73
+Kamera 7, videowdth 176, videohight 144, 1506586426.95, Nummer 74
+Kamera 7, videowdth 176, videohight 144, 1506586426.98, Nummer 75
+Kamera 7, videowdth 176, videohight 144, 1506586427.02, Nummer 76
+Kamera 7, videowdth 176, videohight 144, 1506586427.05, Nummer 77
+Kamera 7, videowdth 176, videohight 144, 1506586427.08, Nummer 78
+Kamera 7, videowdth 176, videohight 144, 1506586427.12, Nummer 79
+Kamera 7, videowdth 176, videohight 144, 1506586427.15, Nummer 80
+Kamera 7, videowdth 176, videohight 144, 1506586427.18, Nummer 81
+Kamera 7, videowdth 176, videohight 144, 1506586427.22, Nummer 82
+Kamera 7, videowdth 176, videohight 144, 1506586427.25, Nummer 83
+Kamera 7, videowdth 176, videohight 144, 1506586427.29, Nummer 84
+Kamera 7, videowdth 176, videohight 144, 1506586427.32, Nummer 85
+Kamera 7, videowdth 176, videohight 144, 1506586427.35, Nummer 86
+Kamera 7, videowdth 176, videohight 144, 1506586427.39, Nummer 87
+Kamera 7, videowdth 176, videohight 144, 1506586427.42, Nummer 88
+Kamera 7, videowdth 176, videohight 144, 1506586427.45, Nummer 89
+Kamera 7, videowdth 176, videohight 144, 1506586427.49, Nummer 90
+Kamera 7, videowdth 176, videohight 144, 1506586427.52, Nummer 91
+Kamera 7, videowdth 176, videohight 144, 1506586427.56, Nummer 92
+Kamera 7, videowdth 176, videohight 144, 1506586427.59, Nummer 93
+Kamera 7, videowdth 176, videohight 144, 1506586427.62, Nummer 94
+Kamera 7, videowdth 176, videohight 144, 1506586427.66, Nummer 95
+Kamera 7, videowdth 176, videohight 144, 1506586427.69, Nummer 96
+Kamera 7, videowdth 176, videohight 144, 1506586427.72, Nummer 97
+Kamera 7, videowdth 176, videohight 144, 1506586427.76, Nummer 98
+Kamera 7, videowdth 176, videohight 144, 1506586427.79, Nummer 99
