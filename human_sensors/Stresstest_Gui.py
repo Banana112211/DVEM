@@ -2,105 +2,121 @@ import time
 import Tkinter as Tk
 import writecsv2
 import datalogger
-import os
 import subprocess
 
+def update(text=str()):
+   """---textfeld aktualisieren"""
+   print(text)
+   textbox.insert(Tk.END,text)
+   root.update()    
+
+def GSR(data=dict()):
+    """--- GSR mitteln und zurück geben-----"""
+    gsr_cur=0
+    for gsr in data["gsr"]:
+        gsr_cur+=gsr
+        
+    gsr_cur=gsr_cur/len(data["gsr"])
+    
+    return gsr
+
 def _start():
+    
     active_stat.set(False)
-    start_button.destroy()
+    start_button.destroy()#hide Startbutton
     probantenname=name_box.get()
-    data={}
+    data=dict()
     gsr_relax=int()
     gsr_current=int()
-    gt=datalogger.inithializegt()
-    
-    print(probantenname)
-    textbox.insert(Tk.END,probantenname)
-    root.update()
-    
     start=time.ctime()
-    t_eis=180
-    name=probantenname+" " + start
-    print(name)
-    textbox.insert(Tk.END,name)
-    root.update()
+    t_eis=int(180)
+    gt=datalogger.inithializegt()
+    name=probantenname+" " + start+" \n"
+    timer=int()
+    
+
+      
+    update(name)
+    
     datalogger.readdata(15,gt,data)
-    writecsv2.writedatacsv(name,data,1)
-    for gsr in data["gsr"]:
-        gsr_relax+=gsr
-        
-    gsr_relax=gsr_relax/len(data["gsr"])
-    textbox.insert(Tk.END,str(gsr_relax))
-    root.update()
-    print("-------------------------------------------")
-    print("Der Eiswassertest beginnt in gleich")
+    writecsv2.writedatacsv(name,data,0)
     
-    textbox.insert(Tk.END," Der Eiswassertest beginnt in gleich \n")
-    textbox.insert(Tk.END," noch 15 s \n")
-    root.update()
+    #--------Step 1------------ Grundlevel GSR HR...----------------
     
-    print("noch 15 s \n")
+    update("------------------------------------------- \n Der Eiswassertest beginnt in gleich")
+    
+    
+    update("noch 15 s \n")
     datalogger.readdata(10,gt,data)
     writecsv2.writedatacsv(name,data,1)
-    print("noch 5 s")
-    textbox.insert(Tk.END,"noch 5 s \n")
-    root.update()
+    #Grundlevel Hautleitfähigkeit festlegen
+    
+    gsr_relax=GSR(data)
+    update(str(gsr_relax))
+    update("noch 5 s \n")
+    
     
     datalogger.readdata(5,gt,data)
+    writecsv2.writedatacsv(name,data,1)
+    
     data.clear()
+    
     data["t_start_eis"]=[]
     data["t_start_eis"].append(time.time())
     writecsv2.writedatacsv(name,data,0)
-    print("jetzt bitte Hand bis zum Handgelenk in den Eimer")
-    textbox.insert(Tk.END,"jetzt bitte Hand bis zum Handgelenk in den Eimer \n")
-    root.update()
+    data.clear()
+    
+    update("jetzt bitte Hand bis zum Handgelenk in den Eimer \n")
+#--------Step 2------------Eisawassertest----------------
     
     while t_eis>0:
-        datalogger.readdata(10,gt,data)
-        writecsv2.writedatacsv(name,data,1)
-        t_eis-=10
-        print("noch "+ str(t_eis)+" Sekunden")
-        textbox.insert(Tk.END,"noch "+ str( t_eis) +" Sekunden \n")
-        root.update()
-        if active_stat.get():
-            data.clear()
-            data["t_end_eis"]=[]
-            data["t_end_eis"].append(time.time())
-            writecsv2.writedatacsv(name,data,0)
-            break
+       datalogger.readdata(10,gt,data)
+       writecsv2.writedatacsv(name,data,1)
+       t_eis=t_eis-10
+       update("noch "+ str(t_eis) +" Sekunden \n")
+            
+       if active_stat.get():
+          data.clear()
+          data["t_end_eis"]=[]
+          data["t_end_eis"].append(time.time())
+          writecsv2.writedatacsv(name,data,0)
+          break
                 
                     
-     
-    print("Bitte die Hand nun heraus nehmen und ein wenig entspannen")
-    textbox.insert(Tk.END,"Bitte die Hand nun heraus nehmen und ein wenig entspannen \n")
-    timer=0
-    while gsr_current< (gsr_relax-5):
+    
+    update("Bitte die Hand nun heraus nehmen und ein wenig entspannen \n")
+ #--------Step 3------------ Entspannen ----------------
+    while ( gsr_current< (gsr_relax-5)) or (timer< 70):
+        
         datalogger.readdata(10,gt,data)
         writecsv2.writedatacsv(name,data,1)
+        
         timer+=10
-        print("Gleich geht's weiter")
-        textbox.insert(Tk.END,"Gleich geht's weiter \n")
-        root.update()    
+        update("Gleich geht's weiter\n")
+        gsr_current=GSR(data)
+            
         if timer>150:
             break
             
-    print("nun folgt noch eine kurze Video Sequenz")
-    textbox.insert(Tk.END,"nun folgt noch eine kurze Video Sequenz \n")
+    update("nun folgt noch eine kurze Video Sequenz \n")
+#--------Step 3------------ Video ----------------    
     data.clear()
     data["t_start_video"]=[]
     data["t_start_video"].append(time.time())
     writecsv2.writedatacsv(name,data,0)
+   
     subprocess.call("xdg-open 'Stressor.mp4'" , shell=True)
-    datalogger.readdata(150,gt,data)
-    writecsv2.writedatacsv(name,data,1)
-    print("Vielen Dank!")
-    textbox.insert(Tk.END,"Vielen Dank! ")
-    root.update()
+    
+    datalogger.readdata(120,gt,data)
+    writecsv2.writedatacsv(name,data,0)
+    
+    update("Vielen Dank!")
+    
     
 
 def _stop():
     active_stat.set(True)
-
+    update("Abbruchwunsch") 
 
 root = Tk.Tk()
 
