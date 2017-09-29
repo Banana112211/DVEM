@@ -50,9 +50,15 @@ def readdata(t,gt,data):
          while count<t:
              try:
                  start=time.time()
+                 #oszi(gsr,protolab,count)
+                 #middle=time.time()
+                 #time.sleep(0.5-(start-middle))
                  gt.expect(hr_expect)
+              
                  datahex = gt.match.group(1).strip()
-                 print(datahex,count)
+                 #print(datahex,count)
+                 
+                 #print(start-middle)
                  oszi(gsr,protolab,count)
                  data_hr = map(lambda x: int(x, 16), datahex.split(' '))
                  res = interpret(data_hr)
@@ -62,8 +68,10 @@ def readdata(t,gt,data):
 
                          print i_rr                                                  
                          rr.append(i_rr*1000/1024)
-                 #print res["hr"]
+                 print res["hr"]
                  hr.append(res["hr"])
+                 end=time.time()
+                 
                  count+=1
                  print(time.time()-start)
                  
@@ -84,7 +92,7 @@ def readdata(t,gt,data):
 
 def log(t,name):
 
-    maxtime=6  #alle 5s abspeichern 8h-> ~50 kb pro list
+    maxtime=20  #alle 5s abspeichern 8h-> ~50 kb pro list
 
     data={}
     #name="test" #time.ctime()
@@ -96,7 +104,7 @@ def log(t,name):
              
             readdata(t,gt,data)
 
-            writecsv2.writedatacsv(data,name,1)
+            writecsv2.writedatacsv(name,data,1)
             
         if t>maxtime:
             runs=t/maxtime
@@ -159,7 +167,7 @@ def interpret(data):
 
 def main():
     name="test" #time.ctime()
-    t=5
+    t=10
     log(t,name)
 
 if __name__ == '__main__':
