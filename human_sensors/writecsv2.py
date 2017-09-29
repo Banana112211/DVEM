@@ -8,20 +8,20 @@ Created on Mon Sep 11 18:08:21 2017
 #csv ausgabe
 
 import csv
-import os.path
 import os
-
+import time
 def main():
 
     name="test" 
     datain={} 
 #    gsr=[7,8,9]
 #    datain["gsr"]=gsr
-
-    hr=[4,5,6]
-    rr=[8,9]
-    datain["hr"]=hr
-    datain["rr"]=rr
+    for i in range(2):
+        datain.clear()
+        hr=[14,15,16]
+        rr=[38,39]
+        datain["hr"]=hr
+        datain["rr"]=rr
 #    duration=len(data["hr"])
 #    c_rr=len(data["rr"])
 #    if c_rr<duration:
@@ -29,24 +29,54 @@ def main():
 #            data["rr"].append(0)
 #            c_rr+=1
 
+        writedatacsv(name,datain,1)
+        datain.clear()
+        gsr=[27,28,29]
+        datain["gsr"]=gsr
+        writedatacsv(name,datain,0)   
+        datain.clear()
+        gsr=[21,22,23]
+        hr=[17,18,19]
+        rr=[30,31]
+        datain["hr"]=hr
+        datain["rr"]=rr
+        datain["gsr"]=gsr
+        writedatacsv(name,datain,1)
+    datain.clear()
+    datain["end"]=[time.time()]
     writedatacsv(name,datain,0)
+    datain.clear()
+    gsr=[20]
+    hr=[10]
+    rr=[30]
+    datain["hr"]=hr
+    datain["rr"]=rr
+    datain["gsr"]=gsr
+    writedatacsv(name,datain,1)
+    
+    
+    
+    
 
 def csvreader(name,append):
     reader=csv.DictReader(open(name+'.csv', 'r'))
     dread=dict()
 
     #get vorhandene Spalten(not empty)
-    try:
-        for key in reader.fieldnames:
-            dread[key]=[]
-
-    except:next
+    if reader.fieldnames:
+        try:
+            for key in reader.fieldnames:
+                dread[key]=[]
+    
+        except:append=0
+    else:append=0
     #vorhandene Spalten mit Daten befüllen
     if append==0:
         for row in reader:
             for key in row:
                 try:
-                 dread[key].append(row[key])
+                 if not row[key]=="": 
+                     dread[key].append(row[key])
                 except:next
         
     return dread
@@ -63,7 +93,8 @@ def csvwriter(dread,f,append):
         w.writerow(dread.keys()) 
     else:
         w = csv.writer(open(f+'.csv', 'a'))
-
+   
+    
     #über datenlänge iterieren ´= Zeilenanzahl
     while count<line:
         c=[]
@@ -80,17 +111,17 @@ def csvwriter(dread,f,append):
         w.writerow(c)
 
 def writedatacsv(name=str(),data=dict(),append=bool()):
-    """CSV daten schreiben,bestehen csvwriter() csvreader()"""
-    exist=os.path.isfile(name +'.csv') 
+    exist=os.path.isfile(name +'.csv')
 
     if exist == 0:
 
         writer = csv.writer(open(name+'.csv', 'w'))
         writer.writerow(data.keys())
-        
     dread=dict()
    #---------------------------------------------------------------------------------------     
     dread=csvreader(name,append) 
+    if not dread.items():
+        append=0
    #überprüfen ob input Dict(data) schon in csv vorhanden falls nicht erstellen, falls ja Daten anhängen
     for key in data:
         if key in dread:
@@ -98,6 +129,7 @@ def writedatacsv(name=str(),data=dict(),append=bool()):
                 dread[key].append(data[key][d])
 
         else:
+            dread[key]=[]
             dread[key]=data[key]
 
     #daten schreiben        
