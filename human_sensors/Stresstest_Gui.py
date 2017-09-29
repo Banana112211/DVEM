@@ -11,7 +11,7 @@ def update(text=str()):
    root.update()    
 
 def GSR(data=dict()):
-    """--- GSR mitteln und zurück geben-----"""
+    """--- GSR mitteln und zurueck geben-----"""
     gsr_cur=0
     for gsr in data["gsr"]:
         gsr_cur+=gsr
@@ -49,7 +49,7 @@ def _start():
     update("noch 15 s \n")
     datalogger.readdata(10,gt,data)
     writecsv2.writedatacsv(name,data,1)
-    #Grundlevel Hautleitfähigkeit festlegen
+    #Grundlevel Hautleitfaehigkeit festlegen
     
     gsr_relax=GSR(data)
     update(str(gsr_relax))
