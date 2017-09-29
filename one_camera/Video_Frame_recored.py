@@ -53,7 +53,7 @@ def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,num_frames=100):
     print "sucessful {0}".format(success)
     
 #===Test
-#Einstellungn=[ (960, 544),(960, 720),(1184, 656), (1280, 960)]
+#Einstellungn=[(176, 144),(320,240),(352,288),(432,240),(544,288),(640,480),(800,448),(864,480) ,(960, 544),(960, 720),(1184, 656), (1280, 960)]
 #dir_path = os.path.dirname(os.path.realpath(__file__))
 #for element in Einstellungn:
 #    videoaufzeichnung(element[0],element[1],0,dir_path)
