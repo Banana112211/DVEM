@@ -2,10 +2,9 @@ import cv2
 import Ensure_dir
 import os
 
-def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path):
+def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,num_frames=100):
     import time
     #1.Step: Festlegung der Bildeigenschaften
-    num_frames=40000 #Anzahl der Frames: 15 Frames= 2 sec=> 4500 Frames=5 Minuten
     cap = cv2.VideoCapture(eingang)
     cap.set(3,video_wdth) # wdth
     cap.set(4,video_hight) #hight 
@@ -38,7 +37,7 @@ def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path):
         cv2.imwrite(cwd+"/"+message+".jpg", image) #Speichert frame mit einer absoluten Addresierung
         daten.append(message)
         i += 1
-    print message1280, 960
+    #print message1280, 960
     end = time.time()
     seconds = end - start
     #Berechnung der fps
@@ -53,9 +52,6 @@ def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path):
             myfile.write(str(element)+"\n")
     print "sucessful {0}".format(success)
     
-dir_path = os.path.dirname(os.path.realpath(__file__))
-videoaufzeichnung( 1280, 960,0,dir_path)
-
 #===Test
 #Einstellungn=[ (960, 544),(960, 720),(1184, 656), (1280, 960)]
 #dir_path = os.path.dirname(os.path.realpath(__file__))

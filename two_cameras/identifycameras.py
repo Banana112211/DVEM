@@ -5,7 +5,7 @@ import os
 
 
 print(cv2.__version__)
-for j in range(6,10):
+for j in range(0,10):
   innenkamera = cv2.VideoCapture(j)
   print (j)
   success,image = innenkamera.read()
