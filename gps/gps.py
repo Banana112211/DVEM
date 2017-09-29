@@ -8,4 +8,5 @@ gps=serial.Serial("/dev/ttyACM0",baudrate=9600)
 #print(gps) if you print the gps signal and not an error message occur 
 while True:
     line=gps.readline()
-    print line
+    data=line.split(",")
+    print data[0]
