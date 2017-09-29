@@ -37,7 +37,7 @@ def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,num_frames=100):
         cv2.imwrite(cwd+"/"+message+".jpg", image) #Speichert frame mit einer absoluten Addresierung
         daten.append(message)
         i += 1
-    #print message1280, 960
+    print message
     end = time.time()
     seconds = end - start
     #Berechnung der fps
