@@ -43,10 +43,10 @@ def _start():
     
     #--------Step 1------------ Grundlevel GSR HR...----------------
     
-    update("------------------------------------------- \n Der Eiswassertest beginnt in gleich")
+    update("------------------------------------------- \n Der Eiswassertest beginnt in ")
     
     
-    update("noch 15 s \n")
+    update(" 15 s \n")
     datalogger.readdata(10,gt,data)
     writecsv2.writedatacsv(name,data,1)
     #Grundlevel Hautleitfaehigkeit festlegen

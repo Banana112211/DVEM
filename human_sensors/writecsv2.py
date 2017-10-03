@@ -6,12 +6,12 @@ Created on Mon Sep 11 18:08:21 2017
 """ 
 
 #csv ausgabe
-
+from collections import OrderedDict
 import csv
 import os
 import time
 def main():
-
+    '''---nur zu Testzwecken---'''
     name="test" 
     datain={} 
 #    gsr=[7,8,9]
@@ -59,9 +59,12 @@ def main():
     
 
 def csvreader(name,append):
+    '''---liest CSV file mit Name(name) ein (append==0) oder nur die Keys(append==1)---'''
+    
     reader=csv.DictReader(open(name+'.csv', 'r'))
-    dread=dict()
-
+    dread=OrderedDict()
+      
+    
     #get vorhandene Spalten(not empty)
     if reader.fieldnames:
         try:
@@ -83,8 +86,10 @@ def csvreader(name,append):
     
     
 
-def csvwriter(dread,f,append):
 
+
+def csvwriter(dread=dict(),f=str(),append=bool()):
+    '''überschreibt Daten(dread=dict()) des Files f (!langsamer!) mit (append==0) oder (schneller) hängt diese nur an (append==1)---'''
 #            print(for key in dread: dread[key][0])
     line=1
     count=0
@@ -111,13 +116,14 @@ def csvwriter(dread,f,append):
         w.writerow(c)
 
 def writedatacsv(name=str(),data=dict(),append=bool()):
+    '''---liest CSV file mit Name(name) ein und schreibt Daten(data=dict()) komplett neu (!langsamer!) mit (append==0) oder (schneller) hängt diese nur an (append==1)---''' 
     exist=os.path.isfile(name +'.csv')
 
     if exist == 0:
 
         writer = csv.writer(open(name+'.csv', 'w'))
         writer.writerow(data.keys())
-    dread=dict()
+    
    #---------------------------------------------------------------------------------------     
     dread=csvreader(name,append) 
     if not dread.items():

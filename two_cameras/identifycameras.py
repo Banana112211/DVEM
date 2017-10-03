@@ -3,9 +3,7 @@ import time
 import os 
 
 
-
-print(cv2.__version__)
-for j in range(0,10):
+for j in range(20,60):
   innenkamera = cv2.VideoCapture(j)
   print (j)
   success,image = innenkamera.read()

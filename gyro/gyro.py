@@ -1,17 +1,17 @@
-#!/usr/bin/env python
-# -*- coding: ms949 -*-
-#
-#   myahrs_plus 
-#   2015.05.01 ('c')void 
-#
+" The following code is based on https://github.com/withrobot/myAHRS_plus/tree/master/common_python/pygame/shooting/myahrs_plus.py"
+"Author: Gustav"
 
-import sys, time, thread, serial, traceback 
+import sys, time, thread, serial, traceback, os
 import numpy as np
-import matplotlib.pyplot as plt
-
-datensatz=[]
-zeit=[]
-
+#=======#Change the working direction to "common_functions" and back
+dir_path = os.path.dirname(os.path.realpath(__file__)) #real current working direction
+dir_path_seperated=str(dir_path).split("/")# divide the current working direction
+common_functions=str(dir_path_seperated[0])+"/"+str(dir_path_seperated[1])+"/"+str(dir_path_seperated[2])+"/"+str(dir_path_seperated[3])+"/"+"common_functions"
+os.chdir(common_functions)
+#common load modul
+import Write_Logfile
+os.chdir(dir_path)
+#==============
 class MyAhrsPlus(object):
     def __init__(self, serial_device="/dev/ttyACM0", baudrate=115200, *args, **kwargs):
         super(MyAhrsPlus, self).__init__(*args, **kwargs)
@@ -161,7 +161,11 @@ class MyAhrsPlus(object):
 
 
 
-def unit_test(serial_device):
+def gyro_sensor():
+    if(len(sys.argv) < 2):
+        serial_device = '/dev/ttyACM0'
+    else : 
+        serial_device = sys.argv[1]
     ahrs = MyAhrsPlus(serial_device=serial_device)
         
     yaw_list = []
@@ -174,28 +178,18 @@ def unit_test(serial_device):
     print "Yaw offset %.2f"%(yaw_offset)
     
     ahrs.set_yaw_offset(yaw_offset)
-    startzeit=0
+    nr=0
+    Write_Logfile.logfile_schreiben("roll, pitch, yaw,nr,time","gyro")
     while(True):
+        now=time.asctime()
         e = ahrs.read_euler();
-        #print "EULER ANGLE (%.2f, %.2f, %.2f )"%e
-        plt.plot(zeit,datensatz)
-        datensatz.append(e[1])
-        zeit.append(startzeit)
-        startzeit+=1
-        plt.ion() 
-        #plt.show()
+        print "EULER ANGLE (%.2f, %.2f, %.2f )"%e
+        message=str(str(e[0])+","+str(e[1])+","+str(e[2])+","+str(nr)+","+str(now)) #the whole contain must converted to a string!
+        Write_Logfile.logfile_schreiben(message,"gyro")
+        nr+=1
         time.sleep(0.05)
-    
-    print "END OF TEST"
 
 
-
-if __name__ == '__main__': 
-    if(len(sys.argv) < 2):
-        serial_device = '/dev/ttyACM0'
-    else : 
-        serial_device = sys.argv[1]
-                        
-    unit_test(serial_device)
-    
+#=======Delete after successfull testing!
+gyro_sensor()
     

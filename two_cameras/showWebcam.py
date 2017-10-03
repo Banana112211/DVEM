@@ -9,7 +9,7 @@ import cv2
 import datetime
 
 
-cap = cv2.VideoCapture(6)
+cap = cv2.VideoCapture(1)
 video_wdth=800
 video_hight=600
 cap.set(3,video_wdth) # wdth
@@ -22,7 +22,7 @@ while(True):
     ret, frame = cap.read()
     
     # Our operations on the frame come here
-    gray = cv2.cvtColor(frame, cv2.COLORMAP_HOT) #rum stillen!
+    gray = cv2.cvtColor(frame, cv2.COLORMAP_HOT)
      # Find OpenCV version
     (major_ver, minor_ver, subminor_ver) = (cv2.__version__).split('.')
      
