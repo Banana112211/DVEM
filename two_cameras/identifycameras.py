@@ -3,7 +3,7 @@ import time
 import os 
 
 
-for j in range(20,60):
+for j in range(6,10):
   innenkamera = cv2.VideoCapture(j)
   print (j)
   success,image = innenkamera.read()

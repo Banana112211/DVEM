@@ -34,11 +34,11 @@ def multiprocessing_2cams():   #Funktionsdef.
     dir_path = os.path.dirname(os.path.realpath(__file__))
     
     #start Process1
-    proc1 = Process(target=video.videoaufzeichnung, args=(960, 720,0,dir_path,1000))    #(bridth,width,cam_port1,path,frames)
+    proc1 = Process(target=video.videoaufzeichnung, args=(432,240,6,dir_path,1000))    #(bridth,width,cam_port1,path,frames)
     proc1.start()
     
     #start Process2
-    proc2 = Process(target=video.videoaufzeichnung, args=(960, 720,1,dir_path,1000))    #(bridth,width,cam_port2,path,frames)
+    proc2 = Process(target=video.videoaufzeichnung, args=(432,240,7,dir_path,1000))    #(bridth,width,cam_port2,path,frames)
     proc2.start()
     
     #wait for Process1
@@ -73,6 +73,6 @@ def multiprocessing_3cams():   #Funktionsdef.
     
 #multiprocessing_2cams() 
     
-multiprocessing_3cams()    #Funktionsaufruf
+multiprocessing_2cams()    #Funktionsaufruf
 
 
