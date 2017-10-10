@@ -27,8 +27,23 @@ import os
 import Video_Frame_recored as video
 #Import Multiprocessing
 from multiprocessing import Process
+#=======#Change the working direction to "common_functions" and back
+dir_path = os.path.dirname(os.path.realpath(__file__)) #real current working direction
+dir_path_seperated=str(dir_path).split("/")# divide the current working direction
+common_functions=str(dir_path_seperated[0])+"/"+str(dir_path_seperated[1])+"/"+str(dir_path_seperated[2])+"/"+str(dir_path_seperated[3])+"/"+"gps"
+os.chdir(common_functions)
+#common load modul
+import gps_sensor
  
-
+ 
+def multiprocessing_1cam_1gps():
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    proc1 = Process(target=video.videoaufzeichnung, args=(432,240,6,dir_path,1000))    #(bridth,width,cam_port1,path,frames)
+    proc1.start()
+    proc2 = Process(target=video.videoaufzeichnung, args=(432,240,7,dir_path,1000))    #(bridth,width,cam_port2,path,frames)
+    proc2.start()    
+    proc3=Process(target=gps_sensor.gps_signal, args=())
+    proc3.start()
 def multiprocessing_2cams():   #Funktionsdef.
     #1.Step:
     dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -73,6 +88,6 @@ def multiprocessing_3cams():   #Funktionsdef.
     
 #multiprocessing_2cams() 
     
-multiprocessing_2cams()    #Funktionsaufruf
+multiprocessing_1cam_1gps()   #Funktionsaufruf
 
 
