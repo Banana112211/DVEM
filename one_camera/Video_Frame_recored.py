@@ -2,7 +2,7 @@ import cv2
 import Ensure_dir
 import os
 
-def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,num_frames=100):
+def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,key_simulator,num_frames=100):
     import time
     #1.Step: Festlegung der Bildeigenschaften
     cap = cv2.VideoCapture(eingang)
@@ -35,7 +35,8 @@ def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,num_frames=100):
         success,image = cap.read()
         message= str(folder_name)+", "+str(timestamp)+", Nummer "+str(i)
         cv2.imwrite(cwd+"/"+message+".jpg", image) #Speichert frame mit einer absoluten Addresierung
-        daten.append(message)
+        message2= str(message)+","+str(key_simulator)
+        daten.append(message2)
         i += 1
     print message
     end = time.time()
@@ -51,8 +52,7 @@ def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,num_frames=100):
         for element in daten:
             myfile.write(str(element)+"\n")
     print "sucessful {0}".format(success)
-    
-#===Test
+#===Test 
 #Einstellungn=[(176, 144),(320,240),(352,288),(432,240),(544,288),(640,480),(800,448),(864,480) ,(960, 544),(960, 720),(1184, 656), (1280, 960)]
 #dir_path = os.path.dirname(os.path.realpath(__file__))
 #for element in Einstellungn:
