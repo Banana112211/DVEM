@@ -1,8 +1,8 @@
 import cv2
 import Ensure_dir
 import os
-
-def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,key_simulator,num_frames=100):
+import time
+def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,key_simulator="key",num_frames=1000):
     import time
     #1.Step: Festlegung der Bildeigenschaften
     cap = cv2.VideoCapture(eingang)
@@ -31,10 +31,11 @@ def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,key_simulator,num_
     print timestamp
     start = time.time()
     for i in range(0,num_frames):
+        now=time.asctime()
         timestamp = time.time() #ansonsten wird die Zeit nicht aktualisiert
         success,image = cap.read()
-        message= str(folder_name)+", "+str(timestamp)+", Nummer "+str(i)
-        cv2.imwrite(cwd+"/"+message+".jpg", image) #Speichert frame mit einer absoluten Addresierung
+        message= str(folder_name)+", "+str(timestamp)+", Nummer "+str(i)+", "+str(now)
+        cv2.imwrite(cwd+"/"+message+".jpg", image, [int(cv2.IMWRITE_JPEG_QUALITY), 20]) #Speichert frame mit einer absoluten Addresierung
         message2= str(message)+","+str(key_simulator)
         daten.append(message2)
         i += 1
