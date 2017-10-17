@@ -1,9 +1,9 @@
 #General informationen:
 #If you enter the following  code line in the cmd, you will get the port information of the gps-device "python -m serial.tools.list_ports"
 
-import serial
 import os
-import cv2
+import find_gps
+import time
 #=======#Change the working direction to "common_functions" and back
 dir_path = os.path.dirname(os.path.realpath(__file__)) #real current working direction
 dir_path_seperated=str(dir_path).split("/")# divide the current working direction
@@ -16,9 +16,15 @@ os.chdir(dir_path)
 
 def gps_signal():
     #1.Step:Ensure that the gps-device is succesfull conected to the odroid
-    gps=serial.Serial("/dev/ttyACM0",baudrate=9600) # Durch Erhoehung der Baudrate und der gleichzeitigen Erhoehung der Freqeunz im Sender koennen mehr Signale gesnedet werden
-    
-    #=======================
+    i=0 #number to find_gps
+    gps,state=find_gps.find_gps(i)
+    while state!="success":
+        time.sleep(1)
+        i+=1
+        gps,state=find_gps.find_gps(i)
+        if i==10:
+            print "Error GPS"
+            return
     #=======================
     #print(gps) if you print the gps signal and not an error message occur 
     Write_Logfile.logfile_schreiben("Current_Time,Latitude,Latitude_direction,Longitude,Longitude_direction,Number_of_satellites","gps")
@@ -35,9 +41,6 @@ def gps_signal():
                 message=str(current_time+","+latitude+","+longitude+","+Number_of_satellites) #the whole contain must converted to a string!
                 Write_Logfile.logfile_schreiben(message,"gps")
                 
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-           break 
-        
     #    #===== The following lines help to test the programm
     #    if data[0]=='$GPGGA':
     #        if data[6]!="":  #6 posion prvoides information about Fix quality of the signal
@@ -49,5 +52,4 @@ def gps_signal():
     #           #Number of satellites being tracked
     #           print "Number of satellites: {}".format(data[7])
                
-    #Die Daten erden 
-           
+    #Die Daten erden gps_sensor
