@@ -9,7 +9,7 @@ import cv2
 import datetime
 
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 video_wdth=800
 video_hight=600
 cap.set(3,video_wdth) # wdth
