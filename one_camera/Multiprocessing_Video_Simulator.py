@@ -46,15 +46,30 @@ def multiprocessing_1cam_udp():
 def multiprocessing_2cam():
     dir_path = os.path.dirname(os.path.realpath(__file__))
 
-    proc1 = Process(target=video.videoaufzeichnung, args=(1280, 960,1,dir_path,"objekt",100,"nein",20))#Fahrer
+    proc1 = Process(target=video.videoaufzeichnung, args=(640,480,1,dir_path,"objekt",100,"nein",20))#Fahrer
     proc1.start()
-    proc2 = Process(target=video.videoaufzeichnung, args=(1280, 960,2,dir_path,"objekt",100,"nein",85)) #Front
+    proc2 = Process(target=video.videoaufzeichnung, args=(640,480,2,dir_path,"objekt",100,"nein",85)) #Front
     proc2.start()
 
     proc1.join()
     proc2.join()
+
+
+def multiprocessing_3cam():
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+
+    proc1 = Process(target=video.videoaufzeichnung, args=(320,240,0,dir_path,"objekt",100,"nein",20))#Fahrer
+    proc1.start()
+    proc2 = Process(target=video.videoaufzeichnung, args=(1280, 960,1,dir_path,"objekt",100,"nein",20)) #Front
+    proc2.start()
+    proc3 = Process(target=video.videoaufzeichnung, args=(432,240,2,dir_path,"objekt",100,"nein",20)) #Front
+    proc3.start()
+    proc1.join()
+    proc2.join()
+    proc3.join()
     
-def multiprocessing_3cam_udp():
+    
+def multiprocessing_3cam_udp_all():
     queue = multiprocessing.Queue() 
     dir_path = os.path.dirname(os.path.realpath(__file__))
     proc1=Process(target=UDP_Simulator.udp_simulator, args=(queue,)) # Process for udp
@@ -75,5 +90,7 @@ def multiprocessing_3cam_udp():
         
     proc1.join()
 
+
+
 if __name__ == '__main__':   
-    multiprocessing_2cam()
+    multiprocessing_3cam()

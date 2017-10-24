@@ -42,19 +42,23 @@ import gps_sensor
 
 def One_Kamera():
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    video.videoaufzeichnung(960, 720,0,dir_path,num_frames=40000)
-
+    #video.videoaufzeichnung(352,288,0,dir_path,"key",1000,"nein",20)
+    proc1=Process(target=video.videoaufzeichnung, args=(352,288,0,dir_path,"key",1000,"nein",20,))
+    proc1.start()
+    proc1.join()
 
  
 def multiprocessing_2cam_1gps():
     try:
         dir_path = os.path.dirname(os.path.realpath(__file__))
-        proc1 = Process(target=video.videoaufzeichnung, args=(432,240,0,dir_path,"key",1000))    #(bridth,width,cam_port1,path,frames)
+        proc1 = Process(target=video.videoaufzeichnung, args=(320,240,0,dir_path,"objekt",1000,"nein",20))#Fahrer
         proc1.start()
-        proc2 = Process(target=video.videoaufzeichnung, args=(432,240,1,dir_path,"key",1000))    #(bridth,width,cam_port2,path,frames)
-        proc2.start()    
-        proc3=Process(target=gps_sensor.gps_signal, args=())
+        proc2 = Process(target=video.videoaufzeichnung, args=(1280, 960,1,dir_path,"objekt",1000,"nein",20)) #Front
+        proc2.start()
+        proc3 = Process(target=video.videoaufzeichnung, args=(432,240,2,dir_path,"objekt",1000,"nein",20)) #Front
         proc3.start()
+        proc4=Process(target=gps_sensor.gps_signal, args=())
+        proc4.start()
         print "Please enter"
         userinput=input()
         while True:
@@ -62,6 +66,7 @@ def multiprocessing_2cam_1gps():
                 proc1.terminate()
                 proc2.terminate()
                 proc3.terminate()
+                proc4.terminate()
                 return
             print "Please enter"
             userinput=input()
@@ -69,6 +74,7 @@ def multiprocessing_2cam_1gps():
             proc1.terminate()
             proc2.terminate()
             proc3.terminate()
+            proc4.terminate()
             print "everything is dead"
             return
 def multiprocessing_2cams():   #Funktionsdef.
@@ -94,15 +100,15 @@ def multiprocessing_3cams():   #Funktionsdef.
     dir_path = os.path.dirname(os.path.realpath(__file__))
     
     #start Process1
-    proc1 = Process(target=video.videoaufzeichnung, args=(960,720,0,dir_path,"key",1000))    #(bridth,width,cam_port1,path,frames)
+    proc1 = Process(target=video.videoaufzeichnung, args=(352,288,0,dir_path,"key",1000,"nein",20))    #(bridth,width,cam_port1,path,frames)
     proc1.start()
     
     #start Process2
-    proc2 = Process(target=video.videoaufzeichnung, args=(960,720,1,dir_path,"key",1000))    #(bridth,width,cam_port2,path,frames)
+    proc2 = Process(target=video.videoaufzeichnung, args=(352,288,1,dir_path,"key",1000,"nein",20))    #(bridth,width,cam_port2,path,frames)
     proc2.start()
     
     #start Process3
-    proc3 = Process(target=video.videoaufzeichnung, args=(960,720,2,dir_path,"key",1000))    #(bridth,width,cam_port2,path,frames)
+    proc3 = Process(target=video.videoaufzeichnung, args=(352,288,2,dir_path,"key",1000,"nein",20))
     proc3.start()
     
     #wait for Process1
@@ -113,6 +119,5 @@ def multiprocessing_3cams():   #Funktionsdef.
     proc3.join()
     
 #==================== MAIN =================================
-multiprocessing_3cams()
-
+multiprocessing_2cam_1gps()
 
