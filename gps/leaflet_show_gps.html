@@ -1,4 +1,4 @@
-//http://leaflet-extras.github.io/leaflet-providers/preview/
+//Quelle:http://leaflet-extras.github.io/leaflet-providers/preview/
 <html>
 <head>
   <title>A Leaflet map!</title>
@@ -15,14 +15,28 @@
   <script>
 
   // initialize the map
-var map = L.map('map').setView([49.123,9.20], 13);
-  // load a tile layer
+var map = L.map('map').setView([49.1230118333,9.2079265], 18);
+  // load a tile layer is based on http://leaflet-extras.github.io/leaflet-providers/preview/
 	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	maxZoom: 19,
 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
 // Datenpunkte siehe Beispiel http://leafletjs.com/examples/quick-start/
+//////////////
+var special_point = L.icon({
+    iconUrl: 'special_point.png',
+    iconSize:     [38, 50], // size of the icon
+    shadowSize:   [50, 64], // size of the shadow
+    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
+/////
+//How to bind an image to a popup: https://stackoverflow.com/questions/33468534/show-image-in-leaflet-popup-not-working
+//////////
 var marker = L.marker([49.1230118333,9.2079265]).addTo(map);
+var marker1=L.marker([49.1230118333,9.2079265],{icon:special_point}).addTo(map).bindPopup("<img src='driver.jpg'/>",{
+    maxWidth : 1500});
 var marker = L.marker([49.123024,9.2079325]).addTo(map);
 var marker = L.marker([49.1230331667,9.20794]).addTo(map);
 var marker = L.marker([49.1230448333,9.207948]).addTo(map);
@@ -326,10 +340,7 @@ var marker = L.marker([49.1229266667,9.20802733333]).addTo(map);
 var marker = L.marker([49.1229213333,9.20804583333]).addTo(map);
 var marker = L.marker([49.1229206667,9.20805133333]).addTo(map);
 var marker = L.marker([49.1229186667,9.20805116667]).addTo(map);
-var marker = L.marker([49.122919,9.20804766667]).addTo(map);
-
-  // load GeoJSON from an external file
- 
+var marker = L.marker([49.122919,9.20804766667]).addTo(map); 
   </script>
 </body>
 </html>
