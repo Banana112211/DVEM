@@ -11,7 +11,7 @@ import Tkinter as Tk
 import writecsv2
 import datalogger
 import gyro
-import UDP_Simulator
+#import UDP_Simulator
 from multiprocessing import Process
 
 def update(text=str()):
@@ -34,12 +34,12 @@ def _start():
     
     gt=datalogger.inithializegt()
     start=time.time()
-    name=probantenname+" " + time.ctime()
+    name=probantenname+" " + time.ctime(start)
     process_gyr.start
     update(name)
     data["action"]=[]
     data["start"]=[]
-    data["start"].append(queue.get())
+    data["start"].append(start)
     
     
     writecsv2.writedatacsv(name,data,1)
@@ -80,14 +80,14 @@ def _start():
     
 def _action():
     active_action.set(True)
-    timestamp.set(queue.get())
+    timestamp.set(time.time())
     print("action")
     
 
 def _stop():
     active_stat.set(True)
     update("Abbruchwunsch \n")
-    timestamp.set(queue.get())
+    timestamp.set(time.time())
 
 
 root = Tk.Tk()
@@ -98,11 +98,11 @@ timestamp=Tk.DoubleVar(root)
 
 
 
-'''=========Code line for syn. with simulator '''
+'''=========Code line for syn. with simulator 
 queue = multiprocessing.Queue() 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 proc1=Process(target=UDP_Simulator.udp_simulator, args=(queue,)) # Process for udp
-'''================='''
+================='''
 
 textbox=Tk.Text(root) 
 textbox.pack(side=Tk.TOP)
