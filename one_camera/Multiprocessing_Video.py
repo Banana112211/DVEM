@@ -24,19 +24,15 @@ TODO!:
 
 import os
 #Import Funktion zum Videospeichern (Abkürzung zu "video")
-
-
+dir_path = os.path.dirname(os.path.realpath(__file__))
 
 import Video_Frame_recored as video
 #Import Multiprocessing
 from multiprocessing import Process
-#=======#Change the working direction to "common_functions" and back
-dir_path = os.path.dirname(os.path.realpath(__file__)) #real current working direction
-dir_path_seperated=str(dir_path).split("/")# divide the current working direction
-gps_file=str(dir_path_seperated[0])+"/"+str(dir_path_seperated[1])+"/"+str(dir_path_seperated[2])+"/"+str(dir_path_seperated[3])+"/"+"gps"
-os.chdir(gps_file)
+import multiprocessing
 import gps_sensor
- 
+os.chdir(dir_path)
+import server
 
 
 
@@ -48,14 +44,14 @@ def One_Kamera():
     proc1.join()
 
  
-def multiprocessing_2cam_1gps():
+def multiprocessing_3cam_1gps():
     try:
         dir_path = os.path.dirname(os.path.realpath(__file__))
-        proc1 = Process(target=video.videoaufzeichnung, args=(320,240,0,dir_path,"objekt",1000,"nein",20))#Fahrer
+        proc1 = Process(target=video.videoaufzeichnung, args=(320,240,2,dir_path,"objekt",40000,"nein",20))#Fahrer
         proc1.start()
-        proc2 = Process(target=video.videoaufzeichnung, args=(1280, 960,1,dir_path,"objekt",1000,"nein",20)) #Front
+        proc2 = Process(target=video.videoaufzeichnung, args=(1280, 960,1,dir_path,"objekt",40000,"nein",80)) #Front
         proc2.start()
-        proc3 = Process(target=video.videoaufzeichnung, args=(432,240,2,dir_path,"objekt",1000,"nein",20)) #Front
+        proc3 = Process(target=video.videoaufzeichnung, args=(432,240,0,dir_path,"objekt",40000,"nein",20)) #hinten
         proc3.start()
         proc4=Process(target=gps_sensor.gps_signal, args=())
         proc4.start()
@@ -95,8 +91,40 @@ def multiprocessing_2cams():   #Funktionsdef.
     #wait for Process2
     proc2.join()
     
-def multiprocessing_3cams():   #Funktionsdef.
+def multiprocessing_3cams_server_gps():   #Funktionsdef.
     #1.Step:
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    
+    #start proc_server
+    proc_server = Process(target=video.videoaufzeichnung, args=(352,288,0,dir_path,"key",1000,"nein",20))    #(bridth,width,cam_port1,path,frames)
+    proc_server.start()
+    
+    #start proc_gps
+    proc_gps=Process(target=gps_sensor.gps_signal, args=())
+    proc_gps.start()
+    
+    #start proc_driver_camera
+    proc_driver_camera = Process(target=video.videoaufzeichnung, args=(352,288,0,dir_path,"key",1000,"nein",20))    #(bridth,width,cam_port1,path,frames)
+    proc_driver_camera.start()
+    
+    #start proc_front_camera
+    proc_front_camera = Process(target=video.videoaufzeichnung, args=(352,288,1,dir_path,"key",1000,"nein",20))    #(bridth,width,cam_port2,path,frames)
+    proc_front_camera.start()
+    
+    #start proc_back_camera
+    proc_back_camera = Process(target=video.videoaufzeichnung, args=(352,288,2,dir_path,"key",1000,"nein",20))
+    proc_back_camera.start()
+    
+    #wait for proc_driver_camera,proc_front_camera,proc_back_camera
+    proc_driver_camera.join()
+    proc_front_camera.join()
+    proc_back_camera.join()
+    proc_server.join()
+    proc_gps.join()
+    
+#==================== MAIN =================================
+def multiprocessing_1cam_server():
+        #1.Step:
     dir_path = os.path.dirname(os.path.realpath(__file__))
     
     #start Process1
@@ -104,20 +132,13 @@ def multiprocessing_3cams():   #Funktionsdef.
     proc1.start()
     
     #start Process2
-    proc2 = Process(target=video.videoaufzeichnung, args=(352,288,1,dir_path,"key",1000,"nein",20))    #(bridth,width,cam_port2,path,frames)
+    proc2=Process(target=server.server,args=('192.168.0.1',55605))
     proc2.start()
     
-    #start Process3
-    proc3 = Process(target=video.videoaufzeichnung, args=(352,288,2,dir_path,"key",1000,"nein",20))
-    proc3.start()
-    
-    #wait for Process1
+    #wait for Proc1, Proc2
     proc1.join()
-    #wait for Process2
     proc2.join()
-    #wait for Process3
-    proc3.join()
-    
-#==================== MAIN =================================
-multiprocessing_2cam_1gps()
+if __name__=="__main__":
+    multiprocessing_3cams_server_gps()
+    #multiprocessing_3cam_1gps()
 
