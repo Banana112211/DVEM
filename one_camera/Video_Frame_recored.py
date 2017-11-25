@@ -16,13 +16,13 @@ def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,queue,num_frames=1
     print dir_path
     os.chdir(dir_path) #Zuerst wird die cwd auf das aktuelle File gesetzt    
     #3.Step: Erstellt einen Order zum Abspeichern der Bilder
-    folder_name="Kamera "+str(eingang)+"; videowdth "+str(video_wdth)+"; videohight "+str(video_hight)
+    folder_name="Kamera "+str(eingang)+", videowdth "+str(video_wdth)+", videohight "+str(video_hight)
     Ensure_dir.ensure_dir(folder_name)
     os.chdir(dir_path+"/"+folder_name)
     cwd= dir_path+"/"+folder_name #Das ist der Name in der 
     #4.Step: erstelle kamera.txt mit spalten ueberschrift
     os.chdir(dir_path) 
-    Write_Logfile.logfile_schreiben('"Input";"Wdth";"hight";"Timestamp";"Number";"Date";"Key"',str(folder_name))
+    Write_Logfile.logfile_schreiben('"Input","Wdth","hight","Timestamp","Number","Date","Key"',str(folder_name))
     #5.Step: Kamera benoentig etwas aufwaermzeit, daher wird While-Loop bis success= true ist
     success,image = cap.read()    
     while success==False:
@@ -41,10 +41,10 @@ def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,queue,num_frames=1
             now=time.asctime()
             timestamp = time.time() #ansonsten wird die Zeit nicht aktualisiert
             success,image = cap.read()
-            #message= str(folder_name)+"; "+str(timestamp)+"; Nummer "+str(i)+"; "+str(now) #Diese Zeile fuer Ubuntu
-            message= str(folder_name)+"; "+str(timestamp)+"; Nummer "+str(i)#DIESE ZEILE fuer windows verwenden 
+            #message= str(folder_name)+", "+str(timestamp)+", Nummer "+str(i)+", "+str(now) #Diese Zeile fuer Ubuntu
+            message= str(folder_name)+", "+str(timestamp)+", Nummer "+str(i)#DIESE ZEILE fuer windows verwenden 
             cv2.imwrite(cwd+"/"+message+".jpg", image, [int(cv2.IMWRITE_JPEG_QUALITY), qual]) #Speichert frame mit einer absoluten Addresierung
-            message2= str(message)+";"+str(key_simulator)
+            message2= str(message)+","+str(key_simulator)
             os.chdir(dir_path) 
             Write_Logfile.logfile_schreiben(message2,str(folder_name))
             i += 1
@@ -55,10 +55,10 @@ def videoaufzeichnung(video_wdth,video_hight,eingang,dir_path,queue,num_frames=1
             now=time.asctime()
             timestamp = time.time() #ansonsten wird die Zeit nicht aktualisiert
             success,image = cap.read()
-            #message= str(folder_name)+"; "+str(timestamp)+"; Nummer "+str(i)+"; "+str(now) #Diese Zeile fuer Ubuntu
-            message= str(folder_name)+"; "+str(timestamp)+"; Nummer "+str(i)+"; "#DIESE ZEILE fuer windows verwenden 
+            #message= str(folder_name)+", "+str(timestamp)+", Nummer "+str(i)+", "+str(now) #Diese Zeile fuer Ubuntu
+            message= str(folder_name)+", "+str(timestamp)+", Nummer "+str(i)+", "#DIESE ZEILE fuer windows verwenden 
             cv2.imwrite(cwd+"/"+message+".jpg", image, [int(cv2.IMWRITE_JPEG_QUALITY), qual]) #Speichert frame mit einer absoluten Addresierung
-            message2= str(message)+";"+str(key_simulator)
+            message2= str(message)+","+str(key_simulator)
             os.chdir(dir_path) 
             Write_Logfile.logfile_schreiben(message2,str(folder_name))
             i += 1
