@@ -5,8 +5,7 @@ Created on Mon Oct  2 17:39:42 2017
 @author: home
 """
 
-import writecsv2
-import hrv
+
 #==============================================================================
 import tkinter as tk#Tkinter in 2.7
 from tkinter import filedialog #tkFileDialog
