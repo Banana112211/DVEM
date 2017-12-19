@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 """
 Created on Tue Oct 10 18:51:52 2017
 
@@ -11,6 +11,7 @@ Created on Tue Oct 10 18:51:52 2017
 import sys, time, thread, serial, traceback, os
 import numpy as np
 import writecsv2
+import find_gyro
 #=======#Change the working direction to "common_functions" and back
 """dir_path = os.path.dirname(os.path.realpath(__file__)) #real current working direction
 dir_path_seperated=str(dir_path).split("/")# divide the current working direction
@@ -122,7 +123,6 @@ class MyAhrsPlus(object):
     def read_euler(self):
         return self.euler_angle_deg
 
-
     def read_acceleration(self):
         return self.acceleration
     
@@ -171,12 +171,10 @@ class MyAhrsPlus(object):
 
 
 def gyro_sensor(name=str(),queue=None):
-    
-    if(len(sys.argv) < 2):
-        serial_device = '/dev/ttyACM0'
-    else : 
-        serial_device = sys.argv[1]
-    ahrs = MyAhrsPlus(serial_device=serial_device)
+    name=name+"_gyr"
+    i=find_gyro.Find_Gyro_Input()
+    serial_device = '/dev/ttyACM'+str(i)
+    ahrs = MyAhrsPlus(serial_device)
         
     yaw_list = []
     for i in range(10):
@@ -187,33 +185,38 @@ def gyro_sensor(name=str(),queue=None):
     
     print( "Yaw offset %.2f"%(yaw_offset))
     
-    keys=['roll', 'pitch', 'yaw', 'accel_x', 'accel_y', 'accel_z', 'gyro_x', 'gyro_y', 'gyro_z','time','time_sim]
+    keys=['roll', 'pitch', 'yaw', 'accel_x', 'accel_y', 'accel_z', 'gyro_x', 'gyro_y', 'gyro_z','time','time_sim']
     
     g_data=dict([(key, []) for key in keys])
     writecsv2.writedatacsv(name,g_data,0)
     nr=0
     #Write_Logfile.logfile_schreiben("roll, pitch, yaw,nr,time","gyro")
     while(True):
-        now=time.asctime()
-        e = ahrs.read_euler();
-        f=ahrs.read_acceleration()
-        g=ahrs.read_angular_rate()
-        for c in range(2):
-            g_data[keys[c]].append(e[c])
-            g_data[keys[c+3]].append(f[c])
-            g_data[keys[c+6]].append(g[c])
-        g_data[keys[9]].append(time.time())
-        if queue:
-            g_data[keys[10]].append(queue.get())
-        writecsv2.writedatacsv(name,g_data,1)
+        try:
+            now=time.asctime()
+            e = ahrs.read_euler();
+            f=ahrs.read_acceleration()
+            g=ahrs.read_angular_rate()
+            for c in range(2):
+                g_data[keys[c]].append(e[c])
+                g_data[keys[c+3]].append(f[c])
+                g_data[keys[c+6]].append(g[c])
+            g_data[keys[9]].append(time.time())
+            if queue:
+                g_data[keys[10]].append(queue.get())
+            writecsv2.writedatacsv(name,g_data,1)
+                
+            print( "EULER ANGLE (%.2f, %.2f, %.2f )"%e)
+            message=str(str(e[0])+","+str(e[1])+","+str(e[2])+","+str(nr)+","+str(now)) #the whole contain must converted to a string!
+            #Write_Logfile.logfile_schreiben(message,"gyro")
             
-        print( "EULER ANGLE (%.2f, %.2f, %.2f )"%e)
-        message=str(str(e[0])+","+str(e[1])+","+str(e[2])+","+str(nr)+","+str(now)) #the whole contain must converted to a string!
-        #Write_Logfile.logfile_schreiben(message,"gyro")
-        
-        print(message)
-        nr+=1
-        time.sleep(0.05)
+            print(message)
+            nr+=1
+            time.sleep(0.05)
+        except KeyboardInterrupt:
+            break
+    
+    ahrs.serial_port.close()
 
 
 #=======Delete after successfull testing!
